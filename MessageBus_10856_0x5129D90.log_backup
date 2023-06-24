@@ -1,0 +1,26 @@
+#0(I)[2022-08-09 14:30:18,789]{0}<MessageBus_10856_0x5129D90> Logger Initialized.
+#0(I)[2022-08-09 14:30:18,790]{0}<MessageBus_10856_0x5129D90> V1 Observer attempting to join bus: Hotkey:Node
+#0(I)[2022-08-09 14:30:18,819]{9}<MessageBus_10856_0x5129D90> PipeEndpoint::Connect on handle 1424.
+#0(D)[2022-08-09 14:30:18,819]{9}<MessageBus_10856_0x5129D90> PipeEndpointConnectorTask pipe connected.
+#0(D)[2022-08-09 14:30:18,819]{10}<MessageBus_10856_0x5129D90> PerformConnectCompletion on handle 1424 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2022-08-09 14:30:18,819]{10}<MessageBus_10856_0x5129D90> Pipe connected to Broadcast process 24920.
+#0(I)[2022-08-09 14:30:18,819]{10}<MessageBus_10856_0x5129D90> rejoinObserverV1: Hotkey:Node
+#0(I)[2022-08-09 14:30:18,819]{10}<MessageBus_10856_0x5129D90> Hotkey:Node joined the Broadcaster.
+#0(I)[2022-08-09 14:30:24,036]{0}<MessageBus_10856_0x5129D90> Removed observer v1: Hotkey:Node
+#0(D)[2022-08-09 14:30:24,036]{0}<MessageBus_10856_0x5129D90> ~MessageBusImpl enter.
+#0(D)[2022-08-09 14:30:24,036]{0}<MessageBus_10856_0x5129D90> ~MessageBusImpl waiting for write queue to flush.
+#0(D)[2022-08-09 14:30:24,036]{0}<MessageBus_10856_0x5129D90> ~MessageBusImpl writes flushed successfully.
+#0(D)[2022-08-09 14:30:24,036]{0}<MessageBus_10856_0x5129D90> ~MessageBusImpl Requesting disconnect.
+#0(D)[2022-08-09 14:30:24,036]{10}<MessageBus_10856_0x5129D90> PerformDisconnectCompletion on handle 1424 for status 1223 with pendingCount remaining: 1.
+#0(D)[2022-08-09 14:30:24,036]{0}<MessageBus_10856_0x5129D90> PipeEndpoint::Disconnect done for handle 1424.
+#0(D)[2022-08-09 14:30:24,036]{0}<MessageBus_10856_0x5129D90> ~MessageBusImpl waiting for disconnect notification.
+#0(W)[2022-08-09 14:30:24,036]{10}<MessageBus_10856_0x5129D90> PerformReadCompletion on handle 1424 read error: 995
+#0(D)[2022-08-09 14:30:24,036]{10}<MessageBus_10856_0x5129D90> PerformDisconnectCompletion on handle 1424 for status 995 with pendingCount remaining: 0.
+#0(D)[2022-08-09 14:30:24,036]{10}<MessageBus_10856_0x5129D90> PerformDisconnectCompletion on handle 1424 calling OnPipeDisconnect.
+#0(I)[2022-08-09 14:30:24,036]{10}<MessageBus_10856_0x5129D90> Pipe Disconnect (995) from Broadcaster.
+#0(I)[2022-08-09 14:30:24,036]{10}<MessageBus_10856_0x5129D90> Notifying peers of disconnect from Broadcaster.
+#0(D)[2022-08-09 14:30:24,036]{0}<MessageBus_10856_0x5129D90> ~MessageBusImpl disconnect completed.
+#0(D)[2022-08-09 14:30:24,036]{0}<MessageBus_10856_0x5129D90> PostQueuedCompletionStatus with NULL key for shutdown.
+#0(D)[2022-08-09 14:30:24,036]{10}<MessageBus_10856_0x5129D90> IoCompletionDispatchTask completion for quit event received.
+#0(D)[2022-08-09 14:30:24,036]{0}<MessageBus_10856_0x5129D90> TaskManager tasks have completed, closing IOCP.
+#0(D)[2022-08-09 14:30:24,037]{0}<MessageBus_10856_0x5129D90> ~MessageBusImpl exit.

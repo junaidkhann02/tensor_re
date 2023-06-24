@@ -1,0 +1,234 @@
+#0(I)[2023-06-05 23:47:37,216]{0}<MessageBus_10572_0x1EFF7C7A400> Logger Initialized.
+#0(I)[2023-06-05 23:47:37,216]{0}<MessageBus_10572_0x1EFF7C7A400> V1 Observer attempting to join bus: CrimsonNative:OverClockingNvc
+#0(I)[2023-06-06 01:14:16,897]{1}<MessageBus_10572_0x1EFF7C7A400> PipeEndpoint::Connect on handle 1248.
+#0(D)[2023-06-06 01:14:16,897]{1}<MessageBus_10572_0x1EFF7C7A400> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-06 01:14:16,897]{2}<MessageBus_10572_0x1EFF7C7A400> PerformConnectCompletion on handle 1248 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-06 01:14:16,897]{2}<MessageBus_10572_0x1EFF7C7A400> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-06 01:14:16,897]{2}<MessageBus_10572_0x1EFF7C7A400> rejoinObserverV1: CrimsonNative:OverClockingNvc
+#0(I)[2023-06-06 01:14:16,897]{2}<MessageBus_10572_0x1EFF7C7A400> CrimsonNative:OverClockingNvc joined the Broadcaster.
+#0(I)[2023-06-06 01:14:17,322]{0}<MessageBus_10572_0x1EFF7C7A400> V1 Observer attempting to join bus: CrimsonNative:OverClockingNvc
+#0(W)[2023-06-06 07:19:30,206]{2}<MessageBus_10572_0x1EFF7C7A400> PerformReadCompletion on handle 1248 read error: 109
+#0(D)[2023-06-06 07:19:30,208]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 1248 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-06 07:19:30,208]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 1248 calling OnPipeDisconnect.
+#0(I)[2023-06-06 07:19:30,208]{2}<MessageBus_10572_0x1EFF7C7A400> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-06 07:19:30,208]{2}<MessageBus_10572_0x1EFF7C7A400> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-06 07:19:30,208]{2}<MessageBus_10572_0x1EFF7C7A400> PipeEndpoint::Disconnect done for handle 1248.
+#0(D)[2023-06-06 07:19:30,223]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 1248 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-06 07:19:30,223]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-06 12:52:12,844]{1}<MessageBus_10572_0x1EFF7C7A400> PipeEndpoint::Connect on handle 1456.
+#0(D)[2023-06-06 12:52:12,844]{1}<MessageBus_10572_0x1EFF7C7A400> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-06 12:52:12,844]{2}<MessageBus_10572_0x1EFF7C7A400> PerformConnectCompletion on handle 1456 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-06 12:52:12,844]{2}<MessageBus_10572_0x1EFF7C7A400> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-06 12:52:12,844]{2}<MessageBus_10572_0x1EFF7C7A400> rejoinObserverV1: CrimsonNative:OverClockingNvc
+#0(I)[2023-06-06 12:52:12,844]{2}<MessageBus_10572_0x1EFF7C7A400> rejoinObserverV1: CrimsonNative:OverClockingNvc
+#0(I)[2023-06-06 12:52:12,845]{2}<MessageBus_10572_0x1EFF7C7A400> CrimsonNative:OverClockingNvc joined the Broadcaster.
+#0(W)[2023-06-07 07:33:01,558]{2}<MessageBus_10572_0x1EFF7C7A400> PerformReadCompletion on handle 1456 read error: 109
+#0(D)[2023-06-07 07:33:01,558]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 1456 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-07 07:33:01,558]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 1456 calling OnPipeDisconnect.
+#0(I)[2023-06-07 07:33:01,558]{2}<MessageBus_10572_0x1EFF7C7A400> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-07 07:33:01,558]{2}<MessageBus_10572_0x1EFF7C7A400> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-07 07:33:01,559]{2}<MessageBus_10572_0x1EFF7C7A400> PipeEndpoint::Disconnect done for handle 1456.
+#0(D)[2023-06-07 07:33:01,569]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 1456 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-07 07:33:01,569]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-07 13:42:59,999]{1}<MessageBus_10572_0x1EFF7C7A400> PipeEndpoint::Connect on handle 736.
+#0(D)[2023-06-07 13:42:59,999]{1}<MessageBus_10572_0x1EFF7C7A400> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-07 13:42:59,999]{2}<MessageBus_10572_0x1EFF7C7A400> PerformConnectCompletion on handle 736 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-07 13:42:59,999]{2}<MessageBus_10572_0x1EFF7C7A400> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-07 13:42:59,999]{2}<MessageBus_10572_0x1EFF7C7A400> rejoinObserverV1: CrimsonNative:OverClockingNvc
+#0(I)[2023-06-07 13:42:59,999]{2}<MessageBus_10572_0x1EFF7C7A400> rejoinObserverV1: CrimsonNative:OverClockingNvc
+#0(I)[2023-06-07 13:43:00,000]{2}<MessageBus_10572_0x1EFF7C7A400> CrimsonNative:OverClockingNvc joined the Broadcaster.
+#0(W)[2023-06-08 03:23:07,231]{2}<MessageBus_10572_0x1EFF7C7A400> PerformReadCompletion on handle 736 read error: 109
+#0(D)[2023-06-08 03:23:07,231]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 736 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-08 03:23:07,231]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 736 calling OnPipeDisconnect.
+#0(I)[2023-06-08 03:23:07,231]{2}<MessageBus_10572_0x1EFF7C7A400> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-08 03:23:07,231]{2}<MessageBus_10572_0x1EFF7C7A400> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-08 03:23:07,232]{2}<MessageBus_10572_0x1EFF7C7A400> PipeEndpoint::Disconnect done for handle 736.
+#0(D)[2023-06-08 03:23:07,242]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 736 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-08 03:23:07,242]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-08 12:41:45,719]{1}<MessageBus_10572_0x1EFF7C7A400> PipeEndpoint::Connect on handle 1376.
+#0(D)[2023-06-08 12:41:45,719]{1}<MessageBus_10572_0x1EFF7C7A400> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-08 12:41:45,719]{2}<MessageBus_10572_0x1EFF7C7A400> PerformConnectCompletion on handle 1376 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-08 12:41:45,719]{2}<MessageBus_10572_0x1EFF7C7A400> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-08 12:41:45,719]{2}<MessageBus_10572_0x1EFF7C7A400> rejoinObserverV1: CrimsonNative:OverClockingNvc
+#0(I)[2023-06-08 12:41:45,719]{2}<MessageBus_10572_0x1EFF7C7A400> rejoinObserverV1: CrimsonNative:OverClockingNvc
+#0(I)[2023-06-08 12:41:45,719]{2}<MessageBus_10572_0x1EFF7C7A400> CrimsonNative:OverClockingNvc joined the Broadcaster.
+#0(W)[2023-06-08 21:57:24,943]{2}<MessageBus_10572_0x1EFF7C7A400> PerformReadCompletion on handle 1376 read error: 109
+#0(D)[2023-06-08 21:57:24,943]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 1376 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-08 21:57:24,943]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 1376 calling OnPipeDisconnect.
+#0(I)[2023-06-08 21:57:24,944]{2}<MessageBus_10572_0x1EFF7C7A400> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-08 21:57:24,944]{2}<MessageBus_10572_0x1EFF7C7A400> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-08 21:57:24,944]{2}<MessageBus_10572_0x1EFF7C7A400> PipeEndpoint::Disconnect done for handle 1376.
+#0(D)[2023-06-08 21:57:24,949]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 1376 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-08 21:57:24,949]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-09 00:49:51,898]{1}<MessageBus_10572_0x1EFF7C7A400> PipeEndpoint::Connect on handle 472.
+#0(D)[2023-06-09 00:49:51,898]{1}<MessageBus_10572_0x1EFF7C7A400> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-09 00:49:51,898]{2}<MessageBus_10572_0x1EFF7C7A400> PerformConnectCompletion on handle 472 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-09 00:49:51,898]{2}<MessageBus_10572_0x1EFF7C7A400> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-09 00:49:51,898]{2}<MessageBus_10572_0x1EFF7C7A400> rejoinObserverV1: CrimsonNative:OverClockingNvc
+#0(I)[2023-06-09 00:49:51,898]{2}<MessageBus_10572_0x1EFF7C7A400> rejoinObserverV1: CrimsonNative:OverClockingNvc
+#0(I)[2023-06-09 00:49:51,899]{2}<MessageBus_10572_0x1EFF7C7A400> CrimsonNative:OverClockingNvc joined the Broadcaster.
+#0(W)[2023-06-09 23:04:09,519]{2}<MessageBus_10572_0x1EFF7C7A400> PerformReadCompletion on handle 472 read error: 109
+#0(D)[2023-06-09 23:04:09,520]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 472 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-09 23:04:09,520]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 472 calling OnPipeDisconnect.
+#0(I)[2023-06-09 23:04:09,520]{2}<MessageBus_10572_0x1EFF7C7A400> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-09 23:04:09,520]{2}<MessageBus_10572_0x1EFF7C7A400> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-09 23:04:09,520]{2}<MessageBus_10572_0x1EFF7C7A400> PipeEndpoint::Disconnect done for handle 472.
+#0(D)[2023-06-09 23:04:09,534]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 472 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-09 23:04:09,534]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-10 00:27:15,884]{1}<MessageBus_10572_0x1EFF7C7A400> PipeEndpoint::Connect on handle 1492.
+#0(D)[2023-06-10 00:27:15,884]{1}<MessageBus_10572_0x1EFF7C7A400> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-10 00:27:15,884]{2}<MessageBus_10572_0x1EFF7C7A400> PerformConnectCompletion on handle 1492 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-10 00:27:15,884]{2}<MessageBus_10572_0x1EFF7C7A400> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-10 00:27:15,884]{2}<MessageBus_10572_0x1EFF7C7A400> rejoinObserverV1: CrimsonNative:OverClockingNvc
+#0(I)[2023-06-10 00:27:15,884]{2}<MessageBus_10572_0x1EFF7C7A400> rejoinObserverV1: CrimsonNative:OverClockingNvc
+#0(I)[2023-06-10 00:27:15,884]{2}<MessageBus_10572_0x1EFF7C7A400> CrimsonNative:OverClockingNvc joined the Broadcaster.
+#0(W)[2023-06-11 04:00:13,166]{2}<MessageBus_10572_0x1EFF7C7A400> PerformReadCompletion on handle 1492 read error: 109
+#0(D)[2023-06-11 04:00:13,166]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 1492 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-11 04:00:13,166]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 1492 calling OnPipeDisconnect.
+#0(I)[2023-06-11 04:00:13,166]{2}<MessageBus_10572_0x1EFF7C7A400> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-11 04:00:13,166]{2}<MessageBus_10572_0x1EFF7C7A400> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-11 04:00:13,166]{2}<MessageBus_10572_0x1EFF7C7A400> PipeEndpoint::Disconnect done for handle 1492.
+#0(D)[2023-06-11 04:00:13,177]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 1492 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-11 04:00:13,177]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-11 05:01:04,029]{1}<MessageBus_10572_0x1EFF7C7A400> PipeEndpoint::Connect on handle 712.
+#0(D)[2023-06-11 05:01:04,029]{1}<MessageBus_10572_0x1EFF7C7A400> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-11 05:01:04,029]{2}<MessageBus_10572_0x1EFF7C7A400> PerformConnectCompletion on handle 712 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-11 05:01:04,029]{2}<MessageBus_10572_0x1EFF7C7A400> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-11 05:01:04,029]{2}<MessageBus_10572_0x1EFF7C7A400> rejoinObserverV1: CrimsonNative:OverClockingNvc
+#0(I)[2023-06-11 05:01:04,029]{2}<MessageBus_10572_0x1EFF7C7A400> rejoinObserverV1: CrimsonNative:OverClockingNvc
+#0(I)[2023-06-11 05:01:04,029]{2}<MessageBus_10572_0x1EFF7C7A400> CrimsonNative:OverClockingNvc joined the Broadcaster.
+#0(W)[2023-06-11 08:03:11,636]{2}<MessageBus_10572_0x1EFF7C7A400> PerformReadCompletion on handle 712 read error: 109
+#0(D)[2023-06-11 08:03:11,636]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 712 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-11 08:03:11,636]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 712 calling OnPipeDisconnect.
+#0(I)[2023-06-11 08:03:11,636]{2}<MessageBus_10572_0x1EFF7C7A400> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-11 08:03:11,636]{2}<MessageBus_10572_0x1EFF7C7A400> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-11 08:03:11,636]{2}<MessageBus_10572_0x1EFF7C7A400> PipeEndpoint::Disconnect done for handle 712.
+#0(D)[2023-06-11 08:03:11,644]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 712 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-11 08:03:11,644]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-11 16:52:03,837]{1}<MessageBus_10572_0x1EFF7C7A400> PipeEndpoint::Connect on handle 1460.
+#0(D)[2023-06-11 16:52:03,837]{1}<MessageBus_10572_0x1EFF7C7A400> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-11 16:52:03,837]{2}<MessageBus_10572_0x1EFF7C7A400> PerformConnectCompletion on handle 1460 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-11 16:52:03,837]{2}<MessageBus_10572_0x1EFF7C7A400> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-11 16:52:03,837]{2}<MessageBus_10572_0x1EFF7C7A400> rejoinObserverV1: CrimsonNative:OverClockingNvc
+#0(I)[2023-06-11 16:52:03,837]{2}<MessageBus_10572_0x1EFF7C7A400> rejoinObserverV1: CrimsonNative:OverClockingNvc
+#0(I)[2023-06-11 16:52:03,837]{2}<MessageBus_10572_0x1EFF7C7A400> CrimsonNative:OverClockingNvc joined the Broadcaster.
+#0(W)[2023-06-12 02:42:19,075]{2}<MessageBus_10572_0x1EFF7C7A400> PerformReadCompletion on handle 1460 read error: 109
+#0(D)[2023-06-12 02:42:19,076]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 1460 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-12 02:42:19,076]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 1460 calling OnPipeDisconnect.
+#0(I)[2023-06-12 02:42:19,076]{2}<MessageBus_10572_0x1EFF7C7A400> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-12 02:42:19,076]{2}<MessageBus_10572_0x1EFF7C7A400> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-12 02:42:19,076]{2}<MessageBus_10572_0x1EFF7C7A400> PipeEndpoint::Disconnect done for handle 1460.
+#0(D)[2023-06-12 02:42:19,088]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 1460 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-12 02:42:19,088]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-12 02:53:17,786]{1}<MessageBus_10572_0x1EFF7C7A400> PipeEndpoint::Connect on handle 756.
+#0(D)[2023-06-12 02:53:17,786]{1}<MessageBus_10572_0x1EFF7C7A400> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-12 02:53:17,786]{2}<MessageBus_10572_0x1EFF7C7A400> PerformConnectCompletion on handle 756 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-12 02:53:17,786]{2}<MessageBus_10572_0x1EFF7C7A400> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-12 02:53:17,786]{2}<MessageBus_10572_0x1EFF7C7A400> rejoinObserverV1: CrimsonNative:OverClockingNvc
+#0(I)[2023-06-12 02:53:17,786]{2}<MessageBus_10572_0x1EFF7C7A400> rejoinObserverV1: CrimsonNative:OverClockingNvc
+#0(I)[2023-06-12 02:53:17,786]{2}<MessageBus_10572_0x1EFF7C7A400> CrimsonNative:OverClockingNvc joined the Broadcaster.
+#0(W)[2023-06-12 08:21:17,940]{2}<MessageBus_10572_0x1EFF7C7A400> PerformReadCompletion on handle 756 read error: 109
+#0(D)[2023-06-12 08:21:17,940]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 756 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-12 08:21:17,940]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 756 calling OnPipeDisconnect.
+#0(I)[2023-06-12 08:21:17,940]{2}<MessageBus_10572_0x1EFF7C7A400> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-12 08:21:17,940]{2}<MessageBus_10572_0x1EFF7C7A400> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-12 08:21:17,940]{2}<MessageBus_10572_0x1EFF7C7A400> PipeEndpoint::Disconnect done for handle 756.
+#0(D)[2023-06-12 08:21:17,950]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 756 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-12 08:21:17,950]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-12 16:56:01,722]{1}<MessageBus_10572_0x1EFF7C7A400> PipeEndpoint::Connect on handle 836.
+#0(D)[2023-06-12 16:56:01,722]{1}<MessageBus_10572_0x1EFF7C7A400> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-12 16:56:01,740]{2}<MessageBus_10572_0x1EFF7C7A400> PerformConnectCompletion on handle 836 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-12 16:56:01,740]{2}<MessageBus_10572_0x1EFF7C7A400> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-12 16:56:01,740]{2}<MessageBus_10572_0x1EFF7C7A400> rejoinObserverV1: CrimsonNative:OverClockingNvc
+#0(I)[2023-06-12 16:56:01,740]{2}<MessageBus_10572_0x1EFF7C7A400> rejoinObserverV1: CrimsonNative:OverClockingNvc
+#0(I)[2023-06-12 16:56:01,740]{2}<MessageBus_10572_0x1EFF7C7A400> CrimsonNative:OverClockingNvc joined the Broadcaster.
+#0(W)[2023-06-13 04:28:14,316]{2}<MessageBus_10572_0x1EFF7C7A400> PerformReadCompletion on handle 836 read error: 109
+#0(D)[2023-06-13 04:28:14,317]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 836 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-13 04:28:14,317]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 836 calling OnPipeDisconnect.
+#0(I)[2023-06-13 04:28:14,317]{2}<MessageBus_10572_0x1EFF7C7A400> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-13 04:28:14,317]{2}<MessageBus_10572_0x1EFF7C7A400> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-13 04:28:14,317]{2}<MessageBus_10572_0x1EFF7C7A400> PipeEndpoint::Disconnect done for handle 836.
+#0(D)[2023-06-13 04:28:14,322]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 836 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-13 04:28:14,322]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-13 04:56:14,843]{1}<MessageBus_10572_0x1EFF7C7A400> PipeEndpoint::Connect on handle 1520.
+#0(D)[2023-06-13 04:56:14,843]{1}<MessageBus_10572_0x1EFF7C7A400> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-13 04:56:14,843]{2}<MessageBus_10572_0x1EFF7C7A400> PerformConnectCompletion on handle 1520 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-13 04:56:14,843]{2}<MessageBus_10572_0x1EFF7C7A400> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-13 04:56:14,843]{2}<MessageBus_10572_0x1EFF7C7A400> rejoinObserverV1: CrimsonNative:OverClockingNvc
+#0(I)[2023-06-13 04:56:14,843]{2}<MessageBus_10572_0x1EFF7C7A400> rejoinObserverV1: CrimsonNative:OverClockingNvc
+#0(I)[2023-06-13 04:56:14,843]{2}<MessageBus_10572_0x1EFF7C7A400> CrimsonNative:OverClockingNvc joined the Broadcaster.
+#0(W)[2023-06-13 06:38:26,397]{2}<MessageBus_10572_0x1EFF7C7A400> PerformReadCompletion on handle 1520 read error: 109
+#0(D)[2023-06-13 06:38:26,397]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 1520 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-13 06:38:26,397]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 1520 calling OnPipeDisconnect.
+#0(I)[2023-06-13 06:38:26,397]{2}<MessageBus_10572_0x1EFF7C7A400> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-13 06:38:26,397]{2}<MessageBus_10572_0x1EFF7C7A400> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-13 06:38:26,397]{2}<MessageBus_10572_0x1EFF7C7A400> PipeEndpoint::Disconnect done for handle 1520.
+#0(D)[2023-06-13 06:38:26,409]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 1520 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-13 06:38:26,409]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-13 07:18:21,746]{1}<MessageBus_10572_0x1EFF7C7A400> PipeEndpoint::Connect on handle 1432.
+#0(D)[2023-06-13 07:18:21,746]{1}<MessageBus_10572_0x1EFF7C7A400> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-13 07:18:21,746]{2}<MessageBus_10572_0x1EFF7C7A400> PerformConnectCompletion on handle 1432 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-13 07:18:21,746]{2}<MessageBus_10572_0x1EFF7C7A400> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-13 07:18:21,746]{2}<MessageBus_10572_0x1EFF7C7A400> rejoinObserverV1: CrimsonNative:OverClockingNvc
+#0(I)[2023-06-13 07:18:21,746]{2}<MessageBus_10572_0x1EFF7C7A400> rejoinObserverV1: CrimsonNative:OverClockingNvc
+#0(I)[2023-06-13 07:18:21,749]{2}<MessageBus_10572_0x1EFF7C7A400> CrimsonNative:OverClockingNvc joined the Broadcaster.
+#0(W)[2023-06-13 11:00:13,115]{2}<MessageBus_10572_0x1EFF7C7A400> PerformReadCompletion on handle 1432 read error: 109
+#0(D)[2023-06-13 11:00:13,115]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 1432 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-13 11:00:13,115]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 1432 calling OnPipeDisconnect.
+#0(I)[2023-06-13 11:00:13,115]{2}<MessageBus_10572_0x1EFF7C7A400> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-13 11:00:13,115]{2}<MessageBus_10572_0x1EFF7C7A400> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-13 11:00:13,115]{2}<MessageBus_10572_0x1EFF7C7A400> PipeEndpoint::Disconnect done for handle 1432.
+#0(D)[2023-06-13 11:00:13,129]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 1432 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-13 11:00:13,129]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-13 16:41:22,875]{1}<MessageBus_10572_0x1EFF7C7A400> PipeEndpoint::Connect on handle 872.
+#0(D)[2023-06-13 16:41:22,875]{1}<MessageBus_10572_0x1EFF7C7A400> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-13 16:41:22,875]{2}<MessageBus_10572_0x1EFF7C7A400> PerformConnectCompletion on handle 872 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-13 16:41:22,875]{2}<MessageBus_10572_0x1EFF7C7A400> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-13 16:41:22,875]{2}<MessageBus_10572_0x1EFF7C7A400> rejoinObserverV1: CrimsonNative:OverClockingNvc
+#0(I)[2023-06-13 16:41:22,875]{2}<MessageBus_10572_0x1EFF7C7A400> rejoinObserverV1: CrimsonNative:OverClockingNvc
+#0(I)[2023-06-13 16:41:22,876]{2}<MessageBus_10572_0x1EFF7C7A400> CrimsonNative:OverClockingNvc joined the Broadcaster.
+#0(W)[2023-06-13 23:23:12,368]{2}<MessageBus_10572_0x1EFF7C7A400> PerformReadCompletion on handle 872 read error: 109
+#0(D)[2023-06-13 23:23:12,368]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 872 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-13 23:23:12,368]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 872 calling OnPipeDisconnect.
+#0(I)[2023-06-13 23:23:12,368]{2}<MessageBus_10572_0x1EFF7C7A400> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-13 23:23:12,368]{2}<MessageBus_10572_0x1EFF7C7A400> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-13 23:23:12,368]{2}<MessageBus_10572_0x1EFF7C7A400> PipeEndpoint::Disconnect done for handle 872.
+#0(D)[2023-06-13 23:23:12,375]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 872 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-13 23:23:12,375]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-14 01:03:39,733]{1}<MessageBus_10572_0x1EFF7C7A400> PipeEndpoint::Connect on handle 1352.
+#0(D)[2023-06-14 01:03:39,733]{1}<MessageBus_10572_0x1EFF7C7A400> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-14 01:03:39,733]{2}<MessageBus_10572_0x1EFF7C7A400> PerformConnectCompletion on handle 1352 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-14 01:03:39,733]{2}<MessageBus_10572_0x1EFF7C7A400> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-14 01:03:39,733]{2}<MessageBus_10572_0x1EFF7C7A400> rejoinObserverV1: CrimsonNative:OverClockingNvc
+#0(I)[2023-06-14 01:03:39,733]{2}<MessageBus_10572_0x1EFF7C7A400> rejoinObserverV1: CrimsonNative:OverClockingNvc
+#0(I)[2023-06-14 01:03:39,733]{2}<MessageBus_10572_0x1EFF7C7A400> CrimsonNative:OverClockingNvc joined the Broadcaster.
+#0(W)[2023-06-14 04:38:50,046]{2}<MessageBus_10572_0x1EFF7C7A400> PerformReadCompletion on handle 1352 read error: 109
+#0(D)[2023-06-14 04:38:50,046]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 1352 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-14 04:38:50,046]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 1352 calling OnPipeDisconnect.
+#0(I)[2023-06-14 04:38:50,046]{2}<MessageBus_10572_0x1EFF7C7A400> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-14 04:38:50,046]{2}<MessageBus_10572_0x1EFF7C7A400> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-14 04:38:50,047]{2}<MessageBus_10572_0x1EFF7C7A400> PipeEndpoint::Disconnect done for handle 1352.
+#0(D)[2023-06-14 04:38:50,059]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 1352 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-14 04:38:50,059]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-14 05:32:08,792]{1}<MessageBus_10572_0x1EFF7C7A400> PipeEndpoint::Connect on handle 1352.
+#0(D)[2023-06-14 05:32:08,792]{1}<MessageBus_10572_0x1EFF7C7A400> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-14 05:32:08,796]{2}<MessageBus_10572_0x1EFF7C7A400> PerformConnectCompletion on handle 1352 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-14 05:32:08,796]{2}<MessageBus_10572_0x1EFF7C7A400> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-14 05:32:08,796]{2}<MessageBus_10572_0x1EFF7C7A400> rejoinObserverV1: CrimsonNative:OverClockingNvc
+#0(I)[2023-06-14 05:32:08,796]{2}<MessageBus_10572_0x1EFF7C7A400> rejoinObserverV1: CrimsonNative:OverClockingNvc
+#0(I)[2023-06-14 05:32:08,796]{2}<MessageBus_10572_0x1EFF7C7A400> CrimsonNative:OverClockingNvc joined the Broadcaster.
+#0(W)[2023-06-14 09:38:24,839]{2}<MessageBus_10572_0x1EFF7C7A400> PerformReadCompletion on handle 1352 read error: 109
+#0(D)[2023-06-14 09:38:24,839]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 1352 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-14 09:38:24,839]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 1352 calling OnPipeDisconnect.
+#0(I)[2023-06-14 09:38:24,839]{2}<MessageBus_10572_0x1EFF7C7A400> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-14 09:38:24,839]{2}<MessageBus_10572_0x1EFF7C7A400> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-14 09:38:24,839]{2}<MessageBus_10572_0x1EFF7C7A400> PipeEndpoint::Disconnect done for handle 1352.
+#0(D)[2023-06-14 09:38:24,846]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion on handle 1352 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-14 09:38:24,846]{2}<MessageBus_10572_0x1EFF7C7A400> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-14 16:05:42,761]{1}<MessageBus_10572_0x1EFF7C7A400> PipeEndpoint::Connect on handle 792.
+#0(D)[2023-06-14 16:05:42,761]{1}<MessageBus_10572_0x1EFF7C7A400> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-14 16:05:42,780]{2}<MessageBus_10572_0x1EFF7C7A400> PerformConnectCompletion on handle 792 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-14 16:05:42,780]{2}<MessageBus_10572_0x1EFF7C7A400> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-14 16:05:42,780]{2}<MessageBus_10572_0x1EFF7C7A400> rejoinObserverV1: CrimsonNative:OverClockingNvc
+#0(I)[2023-06-14 16:05:42,780]{2}<MessageBus_10572_0x1EFF7C7A400> rejoinObserverV1: CrimsonNative:OverClockingNvc
+#0(I)[2023-06-14 16:05:42,780]{2}<MessageBus_10572_0x1EFF7C7A400> CrimsonNative:OverClockingNvc joined the Broadcaster.

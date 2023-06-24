@@ -1,0 +1,162 @@
+#0(I)[2023-06-14 19:45:58,004]{0}<MessageBus_12156_0x51FA080> Logger Initialized.
+#0(I)[2023-06-14 19:45:58,004]{0}<MessageBus_12156_0x51FA080> V1 Observer attempting to join bus: Hotkey:Node
+#0(I)[2023-06-14 19:45:58,035]{7}<MessageBus_12156_0x51FA080> PipeEndpoint::Connect on handle 2700.
+#0(D)[2023-06-14 19:45:58,035]{7}<MessageBus_12156_0x51FA080> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-14 19:45:58,035]{8}<MessageBus_12156_0x51FA080> PerformConnectCompletion on handle 2700 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-14 19:45:58,035]{8}<MessageBus_12156_0x51FA080> Pipe connected to Broadcast process 4928.
+#0(I)[2023-06-14 19:45:58,035]{8}<MessageBus_12156_0x51FA080> rejoinObserverV1: Hotkey:Node
+#0(I)[2023-06-14 19:45:58,035]{8}<MessageBus_12156_0x51FA080> Hotkey:Node joined the Broadcaster.
+#0(W)[2023-06-15 10:54:06,541]{8}<MessageBus_12156_0x51FA080> PipeEndpoint::PerformRead ReadFile header lastError: 109
+#0(D)[2023-06-15 10:54:06,910]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion on handle 2700 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-15 10:54:06,910]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion on handle 2700 calling OnPipeDisconnect.
+#0(I)[2023-06-15 10:54:06,910]{8}<MessageBus_12156_0x51FA080> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-15 10:54:06,940]{8}<MessageBus_12156_0x51FA080> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-15 10:54:06,951]{8}<MessageBus_12156_0x51FA080> PipeEndpoint::Disconnect done for handle 2700.
+#0(D)[2023-06-15 10:54:07,156]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion on handle 2700 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-15 10:54:07,156]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-15 16:13:08,207]{7}<MessageBus_12156_0x51FA080> PipeEndpoint::Connect on handle 2392.
+#0(D)[2023-06-15 16:13:08,207]{7}<MessageBus_12156_0x51FA080> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-15 16:13:08,208]{8}<MessageBus_12156_0x51FA080> PerformConnectCompletion on handle 2392 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-15 16:13:08,208]{8}<MessageBus_12156_0x51FA080> Pipe connected to Broadcast process 4928.
+#0(I)[2023-06-15 16:13:08,296]{8}<MessageBus_12156_0x51FA080> rejoinObserverV1: Hotkey:Node
+#0(I)[2023-06-15 16:13:08,325]{8}<MessageBus_12156_0x51FA080> Hotkey:Node joined the Broadcaster.
+#0(W)[2023-06-15 18:03:22,861]{8}<MessageBus_12156_0x51FA080> PerformReadCompletion on handle 2392 read error: 109
+#0(D)[2023-06-15 18:03:23,113]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion on handle 2392 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-15 18:03:23,113]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion on handle 2392 calling OnPipeDisconnect.
+#0(I)[2023-06-15 18:03:23,113]{8}<MessageBus_12156_0x51FA080> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-15 18:03:23,128]{8}<MessageBus_12156_0x51FA080> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-15 18:03:23,129]{8}<MessageBus_12156_0x51FA080> PipeEndpoint::Disconnect done for handle 2392.
+#0(D)[2023-06-15 18:03:23,605]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion on handle 2392 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-15 18:03:23,605]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-15 23:11:16,933]{7}<MessageBus_12156_0x51FA080> PipeEndpoint::Connect on handle 2964.
+#0(D)[2023-06-15 23:11:16,933]{7}<MessageBus_12156_0x51FA080> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-15 23:11:16,933]{8}<MessageBus_12156_0x51FA080> PerformConnectCompletion on handle 2964 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-15 23:11:16,933]{8}<MessageBus_12156_0x51FA080> Pipe connected to Broadcast process 4928.
+#0(I)[2023-06-15 23:11:16,933]{8}<MessageBus_12156_0x51FA080> rejoinObserverV1: Hotkey:Node
+#0(I)[2023-06-15 23:11:17,023]{8}<MessageBus_12156_0x51FA080> Hotkey:Node joined the Broadcaster.
+#0(W)[2023-06-16 09:44:40,073]{8}<MessageBus_12156_0x51FA080> PipeEndpoint::PerformRead ReadFile header lastError: 109
+#0(D)[2023-06-16 09:44:40,363]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion on handle 2964 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-16 09:44:40,363]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion on handle 2964 calling OnPipeDisconnect.
+#0(I)[2023-06-16 09:44:40,363]{8}<MessageBus_12156_0x51FA080> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-16 09:44:40,378]{8}<MessageBus_12156_0x51FA080> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-16 09:44:40,393]{8}<MessageBus_12156_0x51FA080> PipeEndpoint::Disconnect done for handle 2964.
+#0(D)[2023-06-16 09:44:40,727]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion on handle 2964 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-16 09:44:40,727]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-16 14:27:15,949]{7}<MessageBus_12156_0x51FA080> PipeEndpoint::Connect on handle 2644.
+#0(D)[2023-06-16 14:27:15,949]{7}<MessageBus_12156_0x51FA080> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-16 14:27:16,042]{8}<MessageBus_12156_0x51FA080> PerformConnectCompletion on handle 2644 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-16 14:27:16,043]{8}<MessageBus_12156_0x51FA080> Pipe connected to Broadcast process 4928.
+#0(I)[2023-06-16 14:27:16,119]{8}<MessageBus_12156_0x51FA080> rejoinObserverV1: Hotkey:Node
+#0(I)[2023-06-16 14:27:16,272]{8}<MessageBus_12156_0x51FA080> Hotkey:Node joined the Broadcaster.
+#0(W)[2023-06-17 05:35:24,019]{8}<MessageBus_12156_0x51FA080> PipeEndpoint::PerformRead ReadFile header lastError: 109
+#0(D)[2023-06-17 05:35:24,205]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion on handle 2644 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-17 05:35:24,205]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion on handle 2644 calling OnPipeDisconnect.
+#0(I)[2023-06-17 05:35:24,205]{8}<MessageBus_12156_0x51FA080> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-17 05:35:24,223]{8}<MessageBus_12156_0x51FA080> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-17 05:35:24,224]{8}<MessageBus_12156_0x51FA080> PipeEndpoint::Disconnect done for handle 2644.
+#0(D)[2023-06-17 05:35:24,528]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion on handle 2644 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-17 05:35:24,528]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-17 16:00:20,069]{7}<MessageBus_12156_0x51FA080> PipeEndpoint::Connect on handle 2864.
+#0(D)[2023-06-17 16:00:20,069]{7}<MessageBus_12156_0x51FA080> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-17 16:00:20,234]{8}<MessageBus_12156_0x51FA080> PerformConnectCompletion on handle 2864 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-17 16:00:20,234]{8}<MessageBus_12156_0x51FA080> Pipe connected to Broadcast process 4928.
+#0(I)[2023-06-17 16:00:20,267]{8}<MessageBus_12156_0x51FA080> rejoinObserverV1: Hotkey:Node
+#0(I)[2023-06-17 16:00:20,302]{8}<MessageBus_12156_0x51FA080> Hotkey:Node joined the Broadcaster.
+#0(W)[2023-06-18 13:04:17,652]{8}<MessageBus_12156_0x51FA080> PerformReadCompletion on handle 2864 read error: 109
+#0(D)[2023-06-18 13:04:17,761]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion on handle 2864 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-18 13:04:17,761]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion on handle 2864 calling OnPipeDisconnect.
+#0(I)[2023-06-18 13:04:17,761]{8}<MessageBus_12156_0x51FA080> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-18 13:04:17,762]{8}<MessageBus_12156_0x51FA080> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-18 13:04:17,762]{8}<MessageBus_12156_0x51FA080> PipeEndpoint::Disconnect done for handle 2864.
+#0(D)[2023-06-18 13:04:18,303]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion on handle 2864 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-18 13:04:18,303]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-18 17:07:00,224]{7}<MessageBus_12156_0x51FA080> PipeEndpoint::Connect on handle 1320.
+#0(D)[2023-06-18 17:07:00,224]{7}<MessageBus_12156_0x51FA080> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-18 17:07:00,224]{8}<MessageBus_12156_0x51FA080> PerformConnectCompletion on handle 1320 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-18 17:07:00,224]{8}<MessageBus_12156_0x51FA080> Pipe connected to Broadcast process 4928.
+#0(I)[2023-06-18 17:07:00,224]{8}<MessageBus_12156_0x51FA080> rejoinObserverV1: Hotkey:Node
+#0(I)[2023-06-18 17:07:00,238]{8}<MessageBus_12156_0x51FA080> Hotkey:Node joined the Broadcaster.
+#0(W)[2023-06-19 12:52:18,802]{8}<MessageBus_12156_0x51FA080> PerformReadCompletion on handle 1320 read error: 109
+#0(D)[2023-06-19 12:52:18,849]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion on handle 1320 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-19 12:52:18,849]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion on handle 1320 calling OnPipeDisconnect.
+#0(I)[2023-06-19 12:52:18,849]{8}<MessageBus_12156_0x51FA080> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-19 12:52:18,849]{8}<MessageBus_12156_0x51FA080> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-19 12:52:18,849]{8}<MessageBus_12156_0x51FA080> PipeEndpoint::Disconnect done for handle 1320.
+#0(D)[2023-06-19 12:52:19,127]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion on handle 1320 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-19 12:52:19,127]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-19 21:18:42,878]{7}<MessageBus_12156_0x51FA080> PipeEndpoint::Connect on handle 1440.
+#0(D)[2023-06-19 21:18:42,878]{7}<MessageBus_12156_0x51FA080> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-19 21:18:43,044]{8}<MessageBus_12156_0x51FA080> PerformConnectCompletion on handle 1440 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-19 21:18:43,044]{8}<MessageBus_12156_0x51FA080> Pipe connected to Broadcast process 4928.
+#0(I)[2023-06-19 21:18:43,300]{8}<MessageBus_12156_0x51FA080> rejoinObserverV1: Hotkey:Node
+#0(I)[2023-06-19 21:18:43,445]{8}<MessageBus_12156_0x51FA080> Hotkey:Node joined the Broadcaster.
+#0(W)[2023-06-20 09:12:25,611]{8}<MessageBus_12156_0x51FA080> PerformReadCompletion on handle 1440 read error: 109
+#0(D)[2023-06-20 09:12:25,764]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion on handle 1440 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-20 09:12:25,764]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion on handle 1440 calling OnPipeDisconnect.
+#0(I)[2023-06-20 09:12:25,764]{8}<MessageBus_12156_0x51FA080> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-20 09:12:25,796]{8}<MessageBus_12156_0x51FA080> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-20 09:12:25,812]{8}<MessageBus_12156_0x51FA080> PipeEndpoint::Disconnect done for handle 1440.
+#0(D)[2023-06-20 09:12:26,154]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion on handle 1440 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-20 09:12:26,154]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-20 15:42:29,245]{7}<MessageBus_12156_0x51FA080> PipeEndpoint::Connect on handle 1208.
+#0(D)[2023-06-20 15:42:29,245]{7}<MessageBus_12156_0x51FA080> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-20 15:42:29,301]{8}<MessageBus_12156_0x51FA080> PerformConnectCompletion on handle 1208 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-20 15:42:29,302]{8}<MessageBus_12156_0x51FA080> Pipe connected to Broadcast process 4928.
+#0(I)[2023-06-20 15:42:29,372]{8}<MessageBus_12156_0x51FA080> rejoinObserverV1: Hotkey:Node
+#0(I)[2023-06-20 15:42:29,464]{8}<MessageBus_12156_0x51FA080> Hotkey:Node joined the Broadcaster.
+#0(W)[2023-06-20 18:51:43,845]{8}<MessageBus_12156_0x51FA080> PerformReadCompletion on handle 1208 read error: 109
+#0(D)[2023-06-20 18:51:43,879]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion on handle 1208 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-20 18:51:43,879]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion on handle 1208 calling OnPipeDisconnect.
+#0(I)[2023-06-20 18:51:43,879]{8}<MessageBus_12156_0x51FA080> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-20 18:51:43,925]{8}<MessageBus_12156_0x51FA080> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-20 18:51:43,925]{8}<MessageBus_12156_0x51FA080> PipeEndpoint::Disconnect done for handle 1208.
+#0(D)[2023-06-20 18:51:44,482]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion on handle 1208 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-20 18:51:44,482]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-20 22:16:16,964]{7}<MessageBus_12156_0x51FA080> PipeEndpoint::Connect on handle 3032.
+#0(D)[2023-06-20 22:16:16,964]{7}<MessageBus_12156_0x51FA080> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-20 22:16:16,964]{8}<MessageBus_12156_0x51FA080> PerformConnectCompletion on handle 3032 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-20 22:16:16,964]{8}<MessageBus_12156_0x51FA080> Pipe connected to Broadcast process 4928.
+#0(I)[2023-06-20 22:16:16,964]{8}<MessageBus_12156_0x51FA080> rejoinObserverV1: Hotkey:Node
+#0(I)[2023-06-20 22:16:17,015]{8}<MessageBus_12156_0x51FA080> Hotkey:Node joined the Broadcaster.
+#0(W)[2023-06-21 14:42:50,920]{8}<MessageBus_12156_0x51FA080> PipeEndpoint::PerformRead ReadFile header lastError: 109
+#0(D)[2023-06-21 14:42:51,254]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion on handle 3032 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-21 14:42:51,254]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion on handle 3032 calling OnPipeDisconnect.
+#0(I)[2023-06-21 14:42:51,254]{8}<MessageBus_12156_0x51FA080> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-21 14:42:51,302]{8}<MessageBus_12156_0x51FA080> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-21 14:42:51,317]{8}<MessageBus_12156_0x51FA080> PipeEndpoint::Disconnect done for handle 3032.
+#0(D)[2023-06-21 14:42:51,485]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion on handle 3032 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-21 14:42:51,485]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-21 21:40:23,964]{7}<MessageBus_12156_0x51FA080> PipeEndpoint::Connect on handle 1220.
+#0(D)[2023-06-21 21:40:23,964]{7}<MessageBus_12156_0x51FA080> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-21 21:40:23,965]{8}<MessageBus_12156_0x51FA080> PerformConnectCompletion on handle 1220 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-21 21:40:23,965]{8}<MessageBus_12156_0x51FA080> Pipe connected to Broadcast process 4928.
+#0(I)[2023-06-21 21:40:24,088]{8}<MessageBus_12156_0x51FA080> rejoinObserverV1: Hotkey:Node
+#0(I)[2023-06-21 21:40:24,136]{8}<MessageBus_12156_0x51FA080> Hotkey:Node joined the Broadcaster.
+#0(W)[2023-06-22 15:54:56,198]{8}<MessageBus_12156_0x51FA080> PerformReadCompletion on handle 1220 read error: 109
+#0(D)[2023-06-22 15:54:56,261]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion on handle 1220 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-22 15:54:56,261]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion on handle 1220 calling OnPipeDisconnect.
+#0(I)[2023-06-22 15:54:56,261]{8}<MessageBus_12156_0x51FA080> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-22 15:54:56,262]{8}<MessageBus_12156_0x51FA080> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-22 15:54:56,262]{8}<MessageBus_12156_0x51FA080> PipeEndpoint::Disconnect done for handle 1220.
+#0(D)[2023-06-22 15:54:56,504]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion on handle 1220 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-22 15:54:56,504]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-23 00:14:02,816]{7}<MessageBus_12156_0x51FA080> PipeEndpoint::Connect on handle 3816.
+#0(D)[2023-06-23 00:14:02,816]{7}<MessageBus_12156_0x51FA080> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-23 00:14:02,919]{8}<MessageBus_12156_0x51FA080> PerformConnectCompletion on handle 3816 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-23 00:14:02,919]{8}<MessageBus_12156_0x51FA080> Pipe connected to Broadcast process 4928.
+#0(I)[2023-06-23 00:14:03,137]{8}<MessageBus_12156_0x51FA080> rejoinObserverV1: Hotkey:Node
+#0(I)[2023-06-23 00:14:03,240]{8}<MessageBus_12156_0x51FA080> Hotkey:Node joined the Broadcaster.
+#0(W)[2023-06-23 14:59:26,898]{8}<MessageBus_12156_0x51FA080> PerformReadCompletion on handle 3816 read error: 109
+#0(D)[2023-06-23 14:59:27,017]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion on handle 3816 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-23 14:59:27,017]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion on handle 3816 calling OnPipeDisconnect.
+#0(I)[2023-06-23 14:59:27,017]{8}<MessageBus_12156_0x51FA080> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-23 14:59:27,017]{8}<MessageBus_12156_0x51FA080> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-23 14:59:27,017]{8}<MessageBus_12156_0x51FA080> PipeEndpoint::Disconnect done for handle 3816.
+#0(D)[2023-06-23 14:59:27,284]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion on handle 3816 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-23 14:59:27,284]{8}<MessageBus_12156_0x51FA080> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-23 23:03:48,911]{7}<MessageBus_12156_0x51FA080> PipeEndpoint::Connect on handle 3488.
+#0(D)[2023-06-23 23:03:48,911]{7}<MessageBus_12156_0x51FA080> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-23 23:03:48,934]{8}<MessageBus_12156_0x51FA080> PerformConnectCompletion on handle 3488 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-23 23:03:48,934]{8}<MessageBus_12156_0x51FA080> Pipe connected to Broadcast process 4928.
+#0(I)[2023-06-23 23:03:48,985]{8}<MessageBus_12156_0x51FA080> rejoinObserverV1: Hotkey:Node
+#0(I)[2023-06-23 23:03:49,009]{8}<MessageBus_12156_0x51FA080> Hotkey:Node joined the Broadcaster.

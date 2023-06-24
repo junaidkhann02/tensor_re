@@ -1,0 +1,45 @@
+#0(I)[2021-12-01 19:23:25,752]{0}<MessageBus_9596_0x5C523B8> Logger Initialized.
+#0(I)[2021-12-01 19:23:25,759]{0}<MessageBus_9596_0x5C523B8> V1 Observer attempting to join bus: Hotkey:Node
+#0(I)[2021-12-01 19:23:25,799]{7}<MessageBus_9596_0x5C523B8> PipeEndpoint::Connect on handle 2800.
+#0(D)[2021-12-01 19:23:25,799]{7}<MessageBus_9596_0x5C523B8> PipeEndpointConnectorTask pipe connected.
+#0(D)[2021-12-01 19:23:25,799]{8}<MessageBus_9596_0x5C523B8> PerformConnectCompletion on handle 2800 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2021-12-01 19:23:25,799]{8}<MessageBus_9596_0x5C523B8> Pipe connected to Broadcast process 4640.
+#0(I)[2021-12-01 19:23:25,799]{8}<MessageBus_9596_0x5C523B8> rejoinObserverV1: Hotkey:Node
+#0(I)[2021-12-01 19:23:25,799]{8}<MessageBus_9596_0x5C523B8> Hotkey:Node joined the Broadcaster.
+#0(W)[2021-12-01 20:38:43,526]{8}<MessageBus_9596_0x5C523B8> PerformReadCompletion on handle 2800 read error: 109
+#0(D)[2021-12-01 20:38:43,526]{8}<MessageBus_9596_0x5C523B8> PerformDisconnectCompletion on handle 2800 for status 109 with pendingCount remaining: 0.
+#0(D)[2021-12-01 20:38:43,526]{8}<MessageBus_9596_0x5C523B8> PerformDisconnectCompletion on handle 2800 calling OnPipeDisconnect.
+#0(I)[2021-12-01 20:38:43,526]{8}<MessageBus_9596_0x5C523B8> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2021-12-01 20:38:43,526]{8}<MessageBus_9596_0x5C523B8> Notifying peers of disconnect from Broadcaster.
+#0(D)[2021-12-01 20:38:43,526]{8}<MessageBus_9596_0x5C523B8> PipeEndpoint::Disconnect done for handle 2800.
+#0(D)[2021-12-01 20:38:43,529]{8}<MessageBus_9596_0x5C523B8> PerformDisconnectCompletion on handle 2800 for status 1223 with pendingCount remaining: 0.
+#0(D)[2021-12-01 20:38:43,529]{8}<MessageBus_9596_0x5C523B8> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2021-12-02 04:48:49,607]{7}<MessageBus_9596_0x5C523B8> PipeEndpoint::Connect on handle 2860.
+#0(D)[2021-12-02 04:48:49,607]{7}<MessageBus_9596_0x5C523B8> PipeEndpointConnectorTask pipe connected.
+#0(D)[2021-12-02 04:48:49,607]{8}<MessageBus_9596_0x5C523B8> PerformConnectCompletion on handle 2860 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2021-12-02 04:48:49,607]{8}<MessageBus_9596_0x5C523B8> Pipe connected to Broadcast process 4640.
+#0(I)[2021-12-02 04:48:49,607]{8}<MessageBus_9596_0x5C523B8> rejoinObserverV1: Hotkey:Node
+#0(I)[2021-12-02 04:48:49,607]{8}<MessageBus_9596_0x5C523B8> Hotkey:Node joined the Broadcaster.
+#0(W)[2021-12-02 14:29:46,293]{8}<MessageBus_9596_0x5C523B8> PerformReadCompletion on handle 2860 read error: 109
+#0(D)[2021-12-02 14:29:46,293]{8}<MessageBus_9596_0x5C523B8> PerformDisconnectCompletion on handle 2860 for status 109 with pendingCount remaining: 0.
+#0(D)[2021-12-02 14:29:46,293]{8}<MessageBus_9596_0x5C523B8> PerformDisconnectCompletion on handle 2860 calling OnPipeDisconnect.
+#0(I)[2021-12-02 14:29:46,293]{8}<MessageBus_9596_0x5C523B8> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2021-12-02 14:29:46,293]{8}<MessageBus_9596_0x5C523B8> Notifying peers of disconnect from Broadcaster.
+#0(D)[2021-12-02 14:29:46,293]{8}<MessageBus_9596_0x5C523B8> PipeEndpoint::Disconnect done for handle 2860.
+#0(D)[2021-12-02 14:29:46,340]{0}<MessageBus_9596_0x5C523B8> PipeEndpoint::PerformWrite disconnect requested, disallow further WRITE operations.
+#0(W)[2021-12-02 14:29:46,340]{0}<MessageBus_9596_0x5C523B8> PipeEndpoint Write key 6 on handle 2860 of size 1101 failed.
+#0(E)[2021-12-02 14:29:46,340]{0}<MessageBus_9596_0x5C523B8> failed to post message!
+#0(D)[2021-12-02 14:29:46,372]{8}<MessageBus_9596_0x5C523B8> PerformDisconnectCompletion on handle 2860 for status 1223 with pendingCount remaining: 0.
+#0(D)[2021-12-02 14:29:46,372]{8}<MessageBus_9596_0x5C523B8> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2021-12-02 14:29:46,451]{0}<MessageBus_9596_0x5C523B8> Removed observer v1: Hotkey:Node
+#0(D)[2021-12-02 14:29:46,451]{0}<MessageBus_9596_0x5C523B8> ~MessageBusImpl enter.
+#0(D)[2021-12-02 14:29:46,451]{0}<MessageBus_9596_0x5C523B8> ~MessageBusImpl waiting for write queue to flush.
+#0(W)[2021-12-02 14:29:46,514]{0}<MessageBus_9596_0x5C523B8> ~MessageBusImpl write queue did not flush before timeout.
+#0(D)[2021-12-02 14:29:46,514]{0}<MessageBus_9596_0x5C523B8> ~MessageBusImpl Requesting disconnect.
+#0(D)[2021-12-02 14:29:46,514]{0}<MessageBus_9596_0x5C523B8> PipeEndpoint::Disconnect done for handle 2860.
+#0(D)[2021-12-02 14:29:46,514]{0}<MessageBus_9596_0x5C523B8> ~MessageBusImpl waiting for disconnect notification.
+#0(E)[2021-12-02 14:29:47,027]{0}<MessageBus_9596_0x5C523B8> ~MessageBusImpl timeout waiting for shutdownCompletion.
+#0(D)[2021-12-02 14:29:47,027]{0}<MessageBus_9596_0x5C523B8> PostQueuedCompletionStatus with NULL key for shutdown.
+#0(D)[2021-12-02 14:29:47,027]{8}<MessageBus_9596_0x5C523B8> IoCompletionDispatchTask completion for quit event received.
+#0(D)[2021-12-02 14:29:47,027]{0}<MessageBus_9596_0x5C523B8> TaskManager tasks have completed, closing IOCP.
+#0(D)[2021-12-02 14:29:47,030]{0}<MessageBus_9596_0x5C523B8> ~MessageBusImpl exit.

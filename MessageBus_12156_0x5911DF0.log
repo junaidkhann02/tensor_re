@@ -1,0 +1,162 @@
+#0(I)[2023-06-14 19:45:56,913]{0}<MessageBus_12156_0x5911DF0> Logger Initialized.
+#0(I)[2023-06-14 19:45:56,913]{0}<MessageBus_12156_0x5911DF0> V1 Observer attempting to join bus: GFE:GfeMessageBusPlugin
+#0(I)[2023-06-14 19:45:56,944]{1}<MessageBus_12156_0x5911DF0> PipeEndpoint::Connect on handle 2196.
+#0(D)[2023-06-14 19:45:56,944]{1}<MessageBus_12156_0x5911DF0> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-14 19:45:56,944]{2}<MessageBus_12156_0x5911DF0> PerformConnectCompletion on handle 2196 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-14 19:45:56,944]{2}<MessageBus_12156_0x5911DF0> Pipe connected to Broadcast process 4928.
+#0(I)[2023-06-14 19:45:56,944]{2}<MessageBus_12156_0x5911DF0> rejoinObserverV1: GFE:GfeMessageBusPlugin
+#0(I)[2023-06-14 19:45:56,944]{2}<MessageBus_12156_0x5911DF0> GFE:GfeMessageBusPlugin joined the Broadcaster.
+#0(W)[2023-06-15 10:54:06,510]{2}<MessageBus_12156_0x5911DF0> PipeEndpoint::PerformRead ReadFile header lastError: 109
+#0(D)[2023-06-15 10:54:06,880]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion on handle 2196 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-15 10:54:06,880]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion on handle 2196 calling OnPipeDisconnect.
+#0(I)[2023-06-15 10:54:06,880]{2}<MessageBus_12156_0x5911DF0> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-15 10:54:06,940]{2}<MessageBus_12156_0x5911DF0> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-15 10:54:06,951]{2}<MessageBus_12156_0x5911DF0> PipeEndpoint::Disconnect done for handle 2196.
+#0(D)[2023-06-15 10:54:07,156]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion on handle 2196 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-15 10:54:07,156]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-15 16:13:08,208]{1}<MessageBus_12156_0x5911DF0> PipeEndpoint::Connect on handle 1320.
+#0(D)[2023-06-15 16:13:08,208]{1}<MessageBus_12156_0x5911DF0> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-15 16:13:08,209]{2}<MessageBus_12156_0x5911DF0> PerformConnectCompletion on handle 1320 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-15 16:13:08,209]{2}<MessageBus_12156_0x5911DF0> Pipe connected to Broadcast process 4928.
+#0(I)[2023-06-15 16:13:08,296]{2}<MessageBus_12156_0x5911DF0> rejoinObserverV1: GFE:GfeMessageBusPlugin
+#0(I)[2023-06-15 16:13:08,324]{2}<MessageBus_12156_0x5911DF0> GFE:GfeMessageBusPlugin joined the Broadcaster.
+#0(W)[2023-06-15 18:03:22,986]{2}<MessageBus_12156_0x5911DF0> PipeEndpoint::PerformRead ReadFile header lastError: 109
+#0(D)[2023-06-15 18:03:23,096]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion on handle 1320 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-15 18:03:23,096]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion on handle 1320 calling OnPipeDisconnect.
+#0(I)[2023-06-15 18:03:23,096]{2}<MessageBus_12156_0x5911DF0> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-15 18:03:23,128]{2}<MessageBus_12156_0x5911DF0> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-15 18:03:23,129]{2}<MessageBus_12156_0x5911DF0> PipeEndpoint::Disconnect done for handle 1320.
+#0(D)[2023-06-15 18:03:23,605]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion on handle 1320 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-15 18:03:23,605]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-15 23:11:16,933]{1}<MessageBus_12156_0x5911DF0> PipeEndpoint::Connect on handle 2904.
+#0(D)[2023-06-15 23:11:16,933]{1}<MessageBus_12156_0x5911DF0> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-15 23:11:16,937]{2}<MessageBus_12156_0x5911DF0> PerformConnectCompletion on handle 2904 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-15 23:11:16,937]{2}<MessageBus_12156_0x5911DF0> Pipe connected to Broadcast process 4928.
+#0(I)[2023-06-15 23:11:16,937]{2}<MessageBus_12156_0x5911DF0> rejoinObserverV1: GFE:GfeMessageBusPlugin
+#0(I)[2023-06-15 23:11:16,948]{2}<MessageBus_12156_0x5911DF0> GFE:GfeMessageBusPlugin joined the Broadcaster.
+#0(W)[2023-06-16 09:44:40,056]{2}<MessageBus_12156_0x5911DF0> PipeEndpoint::PerformRead ReadFile header lastError: 109
+#0(D)[2023-06-16 09:44:40,335]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion on handle 2904 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-16 09:44:40,335]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion on handle 2904 calling OnPipeDisconnect.
+#0(I)[2023-06-16 09:44:40,335]{2}<MessageBus_12156_0x5911DF0> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-16 09:44:40,378]{2}<MessageBus_12156_0x5911DF0> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-16 09:44:40,393]{2}<MessageBus_12156_0x5911DF0> PipeEndpoint::Disconnect done for handle 2904.
+#0(D)[2023-06-16 09:44:40,727]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion on handle 2904 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-16 09:44:40,727]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-16 14:27:15,949]{1}<MessageBus_12156_0x5911DF0> PipeEndpoint::Connect on handle 2880.
+#0(D)[2023-06-16 14:27:16,031]{1}<MessageBus_12156_0x5911DF0> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-16 14:27:16,042]{2}<MessageBus_12156_0x5911DF0> PerformConnectCompletion on handle 2880 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-16 14:27:16,043]{2}<MessageBus_12156_0x5911DF0> Pipe connected to Broadcast process 4928.
+#0(I)[2023-06-16 14:27:16,118]{2}<MessageBus_12156_0x5911DF0> rejoinObserverV1: GFE:GfeMessageBusPlugin
+#0(I)[2023-06-16 14:27:16,272]{2}<MessageBus_12156_0x5911DF0> GFE:GfeMessageBusPlugin joined the Broadcaster.
+#0(W)[2023-06-17 05:35:24,019]{2}<MessageBus_12156_0x5911DF0> PipeEndpoint::PerformRead ReadFile header lastError: 109
+#0(D)[2023-06-17 05:35:24,205]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion on handle 2880 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-17 05:35:24,205]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion on handle 2880 calling OnPipeDisconnect.
+#0(I)[2023-06-17 05:35:24,205]{2}<MessageBus_12156_0x5911DF0> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-17 05:35:24,223]{2}<MessageBus_12156_0x5911DF0> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-17 05:35:24,224]{2}<MessageBus_12156_0x5911DF0> PipeEndpoint::Disconnect done for handle 2880.
+#0(D)[2023-06-17 05:35:24,528]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion on handle 2880 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-17 05:35:24,528]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-17 16:00:20,238]{1}<MessageBus_12156_0x5911DF0> PipeEndpoint::Connect on handle 1212.
+#0(D)[2023-06-17 16:00:20,238]{1}<MessageBus_12156_0x5911DF0> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-17 16:00:20,238]{2}<MessageBus_12156_0x5911DF0> PerformConnectCompletion on handle 1212 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-17 16:00:20,238]{2}<MessageBus_12156_0x5911DF0> Pipe connected to Broadcast process 4928.
+#0(I)[2023-06-17 16:00:20,268]{2}<MessageBus_12156_0x5911DF0> rejoinObserverV1: GFE:GfeMessageBusPlugin
+#0(I)[2023-06-17 16:00:20,300]{2}<MessageBus_12156_0x5911DF0> GFE:GfeMessageBusPlugin joined the Broadcaster.
+#0(W)[2023-06-18 13:04:17,652]{2}<MessageBus_12156_0x5911DF0> PerformReadCompletion on handle 1212 read error: 109
+#0(D)[2023-06-18 13:04:17,761]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion on handle 1212 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-18 13:04:17,761]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion on handle 1212 calling OnPipeDisconnect.
+#0(I)[2023-06-18 13:04:17,761]{2}<MessageBus_12156_0x5911DF0> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-18 13:04:17,762]{2}<MessageBus_12156_0x5911DF0> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-18 13:04:17,762]{2}<MessageBus_12156_0x5911DF0> PipeEndpoint::Disconnect done for handle 1212.
+#0(D)[2023-06-18 13:04:18,318]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion on handle 1212 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-18 13:04:18,318]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-18 17:07:00,224]{1}<MessageBus_12156_0x5911DF0> PipeEndpoint::Connect on handle 2896.
+#0(D)[2023-06-18 17:07:00,224]{1}<MessageBus_12156_0x5911DF0> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-18 17:07:00,224]{2}<MessageBus_12156_0x5911DF0> PerformConnectCompletion on handle 2896 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-18 17:07:00,224]{2}<MessageBus_12156_0x5911DF0> Pipe connected to Broadcast process 4928.
+#0(I)[2023-06-18 17:07:00,224]{2}<MessageBus_12156_0x5911DF0> rejoinObserverV1: GFE:GfeMessageBusPlugin
+#0(I)[2023-06-18 17:07:00,240]{2}<MessageBus_12156_0x5911DF0> GFE:GfeMessageBusPlugin joined the Broadcaster.
+#0(W)[2023-06-19 12:52:18,802]{2}<MessageBus_12156_0x5911DF0> PerformReadCompletion on handle 2896 read error: 109
+#0(D)[2023-06-19 12:52:18,817]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion on handle 2896 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-19 12:52:18,817]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion on handle 2896 calling OnPipeDisconnect.
+#0(I)[2023-06-19 12:52:18,818]{2}<MessageBus_12156_0x5911DF0> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-19 12:52:18,849]{2}<MessageBus_12156_0x5911DF0> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-19 12:52:18,849]{2}<MessageBus_12156_0x5911DF0> PipeEndpoint::Disconnect done for handle 2896.
+#0(D)[2023-06-19 12:52:19,126]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion on handle 2896 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-19 12:52:19,126]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-19 21:18:42,815]{1}<MessageBus_12156_0x5911DF0> PipeEndpoint::Connect on handle 1288.
+#0(D)[2023-06-19 21:18:42,815]{1}<MessageBus_12156_0x5911DF0> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-19 21:18:43,043]{2}<MessageBus_12156_0x5911DF0> PerformConnectCompletion on handle 1288 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-19 21:18:43,044]{2}<MessageBus_12156_0x5911DF0> Pipe connected to Broadcast process 4928.
+#0(I)[2023-06-19 21:18:43,300]{2}<MessageBus_12156_0x5911DF0> rejoinObserverV1: GFE:GfeMessageBusPlugin
+#0(I)[2023-06-19 21:18:43,425]{2}<MessageBus_12156_0x5911DF0> GFE:GfeMessageBusPlugin joined the Broadcaster.
+#0(W)[2023-06-20 09:12:25,610]{2}<MessageBus_12156_0x5911DF0> PerformReadCompletion on handle 1288 read error: 109
+#0(D)[2023-06-20 09:12:25,781]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion on handle 1288 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-20 09:12:25,781]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion on handle 1288 calling OnPipeDisconnect.
+#0(I)[2023-06-20 09:12:25,781]{2}<MessageBus_12156_0x5911DF0> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-20 09:12:25,796]{2}<MessageBus_12156_0x5911DF0> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-20 09:12:25,812]{2}<MessageBus_12156_0x5911DF0> PipeEndpoint::Disconnect done for handle 1288.
+#0(D)[2023-06-20 09:12:26,154]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion on handle 1288 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-20 09:12:26,154]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-20 15:42:29,178]{1}<MessageBus_12156_0x5911DF0> PipeEndpoint::Connect on handle 1188.
+#0(D)[2023-06-20 15:42:29,198]{1}<MessageBus_12156_0x5911DF0> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-20 15:42:29,299]{2}<MessageBus_12156_0x5911DF0> PerformConnectCompletion on handle 1188 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-20 15:42:29,299]{2}<MessageBus_12156_0x5911DF0> Pipe connected to Broadcast process 4928.
+#0(I)[2023-06-20 15:42:29,372]{2}<MessageBus_12156_0x5911DF0> rejoinObserverV1: GFE:GfeMessageBusPlugin
+#0(I)[2023-06-20 15:42:29,464]{2}<MessageBus_12156_0x5911DF0> GFE:GfeMessageBusPlugin joined the Broadcaster.
+#0(W)[2023-06-20 18:51:43,877]{2}<MessageBus_12156_0x5911DF0> PipeEndpoint::PerformRead ReadFile header lastError: 109
+#0(D)[2023-06-20 18:51:43,879]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion on handle 1188 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-20 18:51:43,879]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion on handle 1188 calling OnPipeDisconnect.
+#0(I)[2023-06-20 18:51:43,879]{2}<MessageBus_12156_0x5911DF0> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-20 18:51:43,925]{2}<MessageBus_12156_0x5911DF0> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-20 18:51:43,925]{2}<MessageBus_12156_0x5911DF0> PipeEndpoint::Disconnect done for handle 1188.
+#0(D)[2023-06-20 18:51:44,482]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion on handle 1188 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-20 18:51:44,482]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-20 22:16:16,809]{1}<MessageBus_12156_0x5911DF0> PipeEndpoint::Connect on handle 1456.
+#0(D)[2023-06-20 22:16:16,809]{1}<MessageBus_12156_0x5911DF0> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-20 22:16:16,955]{2}<MessageBus_12156_0x5911DF0> PerformConnectCompletion on handle 1456 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-20 22:16:16,955]{2}<MessageBus_12156_0x5911DF0> Pipe connected to Broadcast process 4928.
+#0(I)[2023-06-20 22:16:16,955]{2}<MessageBus_12156_0x5911DF0> rejoinObserverV1: GFE:GfeMessageBusPlugin
+#0(I)[2023-06-20 22:16:17,016]{2}<MessageBus_12156_0x5911DF0> GFE:GfeMessageBusPlugin joined the Broadcaster.
+#0(W)[2023-06-21 14:42:50,920]{2}<MessageBus_12156_0x5911DF0> PipeEndpoint::PerformRead ReadFile header lastError: 109
+#0(D)[2023-06-21 14:42:51,210]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion on handle 1456 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-21 14:42:51,210]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion on handle 1456 calling OnPipeDisconnect.
+#0(I)[2023-06-21 14:42:51,210]{2}<MessageBus_12156_0x5911DF0> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-21 14:42:51,302]{2}<MessageBus_12156_0x5911DF0> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-21 14:42:51,317]{2}<MessageBus_12156_0x5911DF0> PipeEndpoint::Disconnect done for handle 1456.
+#0(D)[2023-06-21 14:42:51,485]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion on handle 1456 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-21 14:42:51,485]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-21 21:40:23,917]{1}<MessageBus_12156_0x5911DF0> PipeEndpoint::Connect on handle 2996.
+#0(D)[2023-06-21 21:40:23,917]{1}<MessageBus_12156_0x5911DF0> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-21 21:40:23,956]{2}<MessageBus_12156_0x5911DF0> PerformConnectCompletion on handle 2996 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-21 21:40:23,956]{2}<MessageBus_12156_0x5911DF0> Pipe connected to Broadcast process 4928.
+#0(I)[2023-06-21 21:40:24,088]{2}<MessageBus_12156_0x5911DF0> rejoinObserverV1: GFE:GfeMessageBusPlugin
+#0(I)[2023-06-21 21:40:24,135]{2}<MessageBus_12156_0x5911DF0> GFE:GfeMessageBusPlugin joined the Broadcaster.
+#0(W)[2023-06-22 15:54:56,198]{2}<MessageBus_12156_0x5911DF0> PerformReadCompletion on handle 2996 read error: 109
+#0(D)[2023-06-22 15:54:56,261]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion on handle 2996 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-22 15:54:56,261]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion on handle 2996 calling OnPipeDisconnect.
+#0(I)[2023-06-22 15:54:56,261]{2}<MessageBus_12156_0x5911DF0> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-22 15:54:56,262]{2}<MessageBus_12156_0x5911DF0> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-22 15:54:56,262]{2}<MessageBus_12156_0x5911DF0> PipeEndpoint::Disconnect done for handle 2996.
+#0(D)[2023-06-22 15:54:56,504]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion on handle 2996 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-22 15:54:56,504]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-23 00:14:02,785]{1}<MessageBus_12156_0x5911DF0> PipeEndpoint::Connect on handle 3176.
+#0(D)[2023-06-23 00:14:02,785]{1}<MessageBus_12156_0x5911DF0> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-23 00:14:02,918]{2}<MessageBus_12156_0x5911DF0> PerformConnectCompletion on handle 3176 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-23 00:14:02,918]{2}<MessageBus_12156_0x5911DF0> Pipe connected to Broadcast process 4928.
+#0(I)[2023-06-23 00:14:03,136]{2}<MessageBus_12156_0x5911DF0> rejoinObserverV1: GFE:GfeMessageBusPlugin
+#0(I)[2023-06-23 00:14:03,243]{2}<MessageBus_12156_0x5911DF0> GFE:GfeMessageBusPlugin joined the Broadcaster.
+#0(W)[2023-06-23 14:59:26,897]{2}<MessageBus_12156_0x5911DF0> PerformReadCompletion on handle 3176 read error: 109
+#0(D)[2023-06-23 14:59:26,987]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion on handle 3176 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-23 14:59:26,987]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion on handle 3176 calling OnPipeDisconnect.
+#0(I)[2023-06-23 14:59:26,987]{2}<MessageBus_12156_0x5911DF0> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-23 14:59:27,017]{2}<MessageBus_12156_0x5911DF0> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-23 14:59:27,017]{2}<MessageBus_12156_0x5911DF0> PipeEndpoint::Disconnect done for handle 3176.
+#0(D)[2023-06-23 14:59:27,295]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion on handle 3176 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-23 14:59:27,295]{2}<MessageBus_12156_0x5911DF0> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-23 23:03:48,946]{1}<MessageBus_12156_0x5911DF0> PipeEndpoint::Connect on handle 2864.
+#0(D)[2023-06-23 23:03:48,946]{1}<MessageBus_12156_0x5911DF0> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-23 23:03:48,947]{2}<MessageBus_12156_0x5911DF0> PerformConnectCompletion on handle 2864 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-23 23:03:48,948]{2}<MessageBus_12156_0x5911DF0> Pipe connected to Broadcast process 4928.
+#0(I)[2023-06-23 23:03:48,983]{2}<MessageBus_12156_0x5911DF0> rejoinObserverV1: GFE:GfeMessageBusPlugin
+#0(I)[2023-06-23 23:03:49,009]{2}<MessageBus_12156_0x5911DF0> GFE:GfeMessageBusPlugin joined the Broadcaster.

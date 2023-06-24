@@ -1,0 +1,558 @@
+#0(I)[2023-05-31 10:39:23,344]{0}<MessageBus_4440_0x1CEA5D564C0> Logger Initialized.
+#0(I)[2023-05-31 10:39:23,344]{0}<MessageBus_4440_0x1CEA5D564C0> V1 Observer attempting to join bus: SSAS:MdnsPlugin
+#0(I)[2023-05-31 10:39:23,360]{0}<MessageBus_4440_0x1CEA5D564C0> V1 Observer attempting to join bus: SSAS:NvStreamControl
+#0(I)[2023-05-31 10:39:23,360]{0}<MessageBus_4440_0x1CEA5D564C0> V1 Observer attempting to join bus: SSAS:IdentityPlugin
+#0(I)[2023-05-31 10:39:23,375]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Connect on handle 1280.
+#0(D)[2023-05-31 10:39:23,375]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-05-31 10:39:23,375]{2}<MessageBus_4440_0x1CEA5D564C0> PerformConnectCompletion on handle 1280 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-05-31 10:39:23,375]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe connected to Broadcast process 4440.
+#0(I)[2023-05-31 10:39:23,375]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:MdnsPlugin
+#0(I)[2023-05-31 10:39:23,375]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:NvStreamControl
+#0(I)[2023-05-31 10:39:23,375]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:IdentityPlugin
+#0(I)[2023-05-31 10:39:23,375]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:MdnsPlugin joined the Broadcaster.
+#0(I)[2023-05-31 10:39:23,383]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:NvStreamControl joined the Broadcaster.
+#0(I)[2023-05-31 10:39:23,383]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:IdentityPlugin joined the Broadcaster.
+#0(I)[2023-05-31 10:39:23,642]{0}<MessageBus_4440_0x1CEA5D564C0> V1 Observer attempting to join bus: SWC:ShieldWirelessController
+#0(I)[2023-05-31 10:39:23,642]{2}<MessageBus_4440_0x1CEA5D564C0> SWC:ShieldWirelessController joined the Broadcaster.
+#0(W)[2023-05-31 12:59:16,852]{2}<MessageBus_4440_0x1CEA5D564C0> PerformReadCompletion on handle 1280 read error: 109
+#0(D)[2023-05-31 12:59:16,852]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 1280 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-05-31 12:59:16,852]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 1280 calling OnPipeDisconnect.
+#0(I)[2023-05-31 12:59:16,852]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-05-31 12:59:16,852]{2}<MessageBus_4440_0x1CEA5D564C0> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-05-31 12:59:16,852]{2}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Disconnect done for handle 1280.
+#0(D)[2023-05-31 12:59:16,857]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 1280 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-05-31 12:59:16,857]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-05-31 15:02:29,737]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Connect on handle 2764.
+#0(D)[2023-05-31 15:02:29,737]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-05-31 15:02:29,744]{2}<MessageBus_4440_0x1CEA5D564C0> PerformConnectCompletion on handle 2764 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-05-31 15:02:29,744]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe connected to Broadcast process 4440.
+#0(I)[2023-05-31 15:02:29,744]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:MdnsPlugin
+#0(I)[2023-05-31 15:02:29,744]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:NvStreamControl
+#0(I)[2023-05-31 15:02:29,744]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:IdentityPlugin
+#0(I)[2023-05-31 15:02:29,744]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SWC:ShieldWirelessController
+#0(I)[2023-05-31 15:02:29,744]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:MdnsPlugin joined the Broadcaster.
+#0(I)[2023-05-31 15:02:29,745]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:NvStreamControl joined the Broadcaster.
+#0(I)[2023-05-31 15:02:29,745]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:IdentityPlugin joined the Broadcaster.
+#0(I)[2023-05-31 15:02:29,745]{2}<MessageBus_4440_0x1CEA5D564C0> SWC:ShieldWirelessController joined the Broadcaster.
+#0(W)[2023-05-31 20:16:03,647]{2}<MessageBus_4440_0x1CEA5D564C0> PerformReadCompletion on handle 2764 read error: 109
+#0(D)[2023-05-31 20:16:03,647]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 2764 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-05-31 20:16:03,647]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 2764 calling OnPipeDisconnect.
+#0(I)[2023-05-31 20:16:03,647]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-05-31 20:16:03,647]{2}<MessageBus_4440_0x1CEA5D564C0> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-05-31 20:16:03,648]{2}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Disconnect done for handle 2764.
+#0(D)[2023-05-31 20:16:03,662]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 2764 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-05-31 20:16:03,662]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-01 05:04:00,782]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Connect on handle 76.
+#0(D)[2023-06-01 05:04:00,782]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-01 05:04:00,784]{2}<MessageBus_4440_0x1CEA5D564C0> PerformConnectCompletion on handle 76 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-01 05:04:00,785]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-01 05:04:00,785]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:MdnsPlugin
+#0(I)[2023-06-01 05:04:00,785]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:NvStreamControl
+#0(I)[2023-06-01 05:04:00,785]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:IdentityPlugin
+#0(I)[2023-06-01 05:04:00,785]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SWC:ShieldWirelessController
+#0(I)[2023-06-01 05:04:00,785]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:MdnsPlugin joined the Broadcaster.
+#0(I)[2023-06-01 05:04:00,786]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:NvStreamControl joined the Broadcaster.
+#0(I)[2023-06-01 05:04:00,786]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:IdentityPlugin joined the Broadcaster.
+#0(I)[2023-06-01 05:04:00,786]{2}<MessageBus_4440_0x1CEA5D564C0> SWC:ShieldWirelessController joined the Broadcaster.
+#0(W)[2023-06-01 07:26:23,813]{2}<MessageBus_4440_0x1CEA5D564C0> PerformReadCompletion on handle 76 read error: 109
+#0(D)[2023-06-01 07:26:23,813]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 76 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-01 07:26:23,813]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 76 calling OnPipeDisconnect.
+#0(I)[2023-06-01 07:26:23,813]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-01 07:26:23,813]{2}<MessageBus_4440_0x1CEA5D564C0> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-01 07:26:23,813]{2}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Disconnect done for handle 76.
+#0(D)[2023-06-01 07:26:23,829]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 76 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-01 07:26:23,829]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-01 10:16:04,947]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Connect on handle 3584.
+#0(D)[2023-06-01 10:16:04,947]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-01 10:16:04,947]{2}<MessageBus_4440_0x1CEA5D564C0> PerformConnectCompletion on handle 3584 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-01 10:16:04,947]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-01 10:16:04,947]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:MdnsPlugin
+#0(I)[2023-06-01 10:16:04,947]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:NvStreamControl
+#0(I)[2023-06-01 10:16:04,947]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:IdentityPlugin
+#0(I)[2023-06-01 10:16:04,947]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SWC:ShieldWirelessController
+#0(I)[2023-06-01 10:16:04,947]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:MdnsPlugin joined the Broadcaster.
+#0(I)[2023-06-01 10:16:04,947]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:NvStreamControl joined the Broadcaster.
+#0(I)[2023-06-01 10:16:04,947]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:IdentityPlugin joined the Broadcaster.
+#0(I)[2023-06-01 10:16:04,947]{2}<MessageBus_4440_0x1CEA5D564C0> SWC:ShieldWirelessController joined the Broadcaster.
+#0(W)[2023-06-02 01:19:47,020]{2}<MessageBus_4440_0x1CEA5D564C0> PerformReadCompletion on handle 3584 read error: 109
+#0(D)[2023-06-02 01:19:47,020]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 3584 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-02 01:19:47,020]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 3584 calling OnPipeDisconnect.
+#0(I)[2023-06-02 01:19:47,020]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-02 01:19:47,020]{2}<MessageBus_4440_0x1CEA5D564C0> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-02 01:19:47,020]{2}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Disconnect done for handle 3584.
+#0(D)[2023-06-02 01:19:47,035]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 3584 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-02 01:19:47,035]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-02 09:23:16,781]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Connect on handle 3600.
+#0(D)[2023-06-02 09:23:16,781]{2}<MessageBus_4440_0x1CEA5D564C0> PerformConnectCompletion on handle 3600 calling OnPipeConnect, issuing PerformRead.
+#0(D)[2023-06-02 09:23:16,781]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpointConnectorTask pipe connected.
+#0(I)[2023-06-02 09:23:16,781]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-02 09:23:16,781]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:MdnsPlugin
+#0(I)[2023-06-02 09:23:16,781]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:NvStreamControl
+#0(I)[2023-06-02 09:23:16,781]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:IdentityPlugin
+#0(I)[2023-06-02 09:23:16,781]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SWC:ShieldWirelessController
+#0(I)[2023-06-02 09:23:16,781]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:MdnsPlugin joined the Broadcaster.
+#0(I)[2023-06-02 09:23:16,781]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:NvStreamControl joined the Broadcaster.
+#0(I)[2023-06-02 09:23:16,781]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:IdentityPlugin joined the Broadcaster.
+#0(I)[2023-06-02 09:23:16,782]{2}<MessageBus_4440_0x1CEA5D564C0> SWC:ShieldWirelessController joined the Broadcaster.
+#0(W)[2023-06-02 22:28:38,650]{2}<MessageBus_4440_0x1CEA5D564C0> PerformReadCompletion on handle 3600 read error: 109
+#0(D)[2023-06-02 22:28:38,650]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 3600 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-02 22:28:38,650]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 3600 calling OnPipeDisconnect.
+#0(I)[2023-06-02 22:28:38,650]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-02 22:28:38,650]{2}<MessageBus_4440_0x1CEA5D564C0> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-02 22:28:38,651]{2}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Disconnect done for handle 3600.
+#0(D)[2023-06-02 22:28:38,659]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 3600 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-02 22:28:38,659]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-03 05:53:55,765]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Connect on handle 7196.
+#0(D)[2023-06-03 05:53:55,765]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-03 05:53:55,765]{2}<MessageBus_4440_0x1CEA5D564C0> PerformConnectCompletion on handle 7196 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-03 05:53:55,765]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-03 05:53:55,765]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:MdnsPlugin
+#0(I)[2023-06-03 05:53:55,765]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:NvStreamControl
+#0(I)[2023-06-03 05:53:55,765]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:IdentityPlugin
+#0(I)[2023-06-03 05:53:55,765]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SWC:ShieldWirelessController
+#0(I)[2023-06-03 05:53:55,765]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:MdnsPlugin joined the Broadcaster.
+#0(I)[2023-06-03 05:53:55,766]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:NvStreamControl joined the Broadcaster.
+#0(I)[2023-06-03 05:53:55,766]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:IdentityPlugin joined the Broadcaster.
+#0(I)[2023-06-03 05:53:55,766]{2}<MessageBus_4440_0x1CEA5D564C0> SWC:ShieldWirelessController joined the Broadcaster.
+#0(W)[2023-06-03 08:10:51,293]{2}<MessageBus_4440_0x1CEA5D564C0> PerformReadCompletion on handle 7196 read error: 109
+#0(D)[2023-06-03 08:10:51,293]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 7196 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-03 08:10:51,293]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 7196 calling OnPipeDisconnect.
+#0(I)[2023-06-03 08:10:51,293]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-03 08:10:51,293]{2}<MessageBus_4440_0x1CEA5D564C0> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-03 08:10:51,293]{2}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Disconnect done for handle 7196.
+#0(D)[2023-06-03 08:10:51,308]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 7196 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-03 08:10:51,308]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-03 11:39:48,750]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Connect on handle 2568.
+#0(D)[2023-06-03 11:39:48,750]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-03 11:39:48,750]{2}<MessageBus_4440_0x1CEA5D564C0> PerformConnectCompletion on handle 2568 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-03 11:39:48,750]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-03 11:39:48,750]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:MdnsPlugin
+#0(I)[2023-06-03 11:39:48,750]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:NvStreamControl
+#0(I)[2023-06-03 11:39:48,750]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:IdentityPlugin
+#0(I)[2023-06-03 11:39:48,750]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SWC:ShieldWirelessController
+#0(I)[2023-06-03 11:39:48,751]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:MdnsPlugin joined the Broadcaster.
+#0(I)[2023-06-03 11:39:48,751]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:NvStreamControl joined the Broadcaster.
+#0(I)[2023-06-03 11:39:48,751]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:IdentityPlugin joined the Broadcaster.
+#0(I)[2023-06-03 11:39:48,751]{2}<MessageBus_4440_0x1CEA5D564C0> SWC:ShieldWirelessController joined the Broadcaster.
+#0(W)[2023-06-03 22:52:08,035]{2}<MessageBus_4440_0x1CEA5D564C0> PerformReadCompletion on handle 2568 read error: 109
+#0(D)[2023-06-03 22:52:08,036]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 2568 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-03 22:52:08,036]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 2568 calling OnPipeDisconnect.
+#0(I)[2023-06-03 22:52:08,036]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-03 22:52:08,036]{2}<MessageBus_4440_0x1CEA5D564C0> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-03 22:52:08,036]{2}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Disconnect done for handle 2568.
+#0(D)[2023-06-03 22:52:08,050]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 2568 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-03 22:52:08,050]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-04 00:03:26,816]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Connect on handle 7544.
+#0(D)[2023-06-04 00:03:26,816]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-04 00:03:26,828]{2}<MessageBus_4440_0x1CEA5D564C0> PerformConnectCompletion on handle 7544 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-04 00:03:26,828]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-04 00:03:26,828]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:MdnsPlugin
+#0(I)[2023-06-04 00:03:26,828]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:NvStreamControl
+#0(I)[2023-06-04 00:03:26,828]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:IdentityPlugin
+#0(I)[2023-06-04 00:03:26,828]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SWC:ShieldWirelessController
+#0(I)[2023-06-04 00:03:26,828]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:MdnsPlugin joined the Broadcaster.
+#0(I)[2023-06-04 00:03:26,829]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:NvStreamControl joined the Broadcaster.
+#0(I)[2023-06-04 00:03:26,829]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:IdentityPlugin joined the Broadcaster.
+#0(I)[2023-06-04 00:03:26,829]{2}<MessageBus_4440_0x1CEA5D564C0> SWC:ShieldWirelessController joined the Broadcaster.
+#0(W)[2023-06-04 02:15:59,724]{2}<MessageBus_4440_0x1CEA5D564C0> PerformReadCompletion on handle 7544 read error: 109
+#0(D)[2023-06-04 02:15:59,724]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 7544 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-04 02:15:59,724]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 7544 calling OnPipeDisconnect.
+#0(I)[2023-06-04 02:15:59,724]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-04 02:15:59,724]{2}<MessageBus_4440_0x1CEA5D564C0> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-04 02:15:59,724]{2}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Disconnect done for handle 7544.
+#0(D)[2023-06-04 02:15:59,739]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 7544 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-04 02:15:59,739]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-04 10:55:21,824]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Connect on handle 9044.
+#0(D)[2023-06-04 10:55:21,824]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-04 10:55:21,824]{2}<MessageBus_4440_0x1CEA5D564C0> PerformConnectCompletion on handle 9044 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-04 10:55:21,824]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-04 10:55:21,824]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:MdnsPlugin
+#0(I)[2023-06-04 10:55:21,824]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:NvStreamControl
+#0(I)[2023-06-04 10:55:21,824]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:IdentityPlugin
+#0(I)[2023-06-04 10:55:21,824]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SWC:ShieldWirelessController
+#0(I)[2023-06-04 10:55:21,824]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:MdnsPlugin joined the Broadcaster.
+#0(I)[2023-06-04 10:55:21,825]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:NvStreamControl joined the Broadcaster.
+#0(I)[2023-06-04 10:55:21,825]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:IdentityPlugin joined the Broadcaster.
+#0(I)[2023-06-04 10:55:21,825]{2}<MessageBus_4440_0x1CEA5D564C0> SWC:ShieldWirelessController joined the Broadcaster.
+#0(W)[2023-06-05 00:35:59,695]{2}<MessageBus_4440_0x1CEA5D564C0> PerformReadCompletion on handle 9044 read error: 109
+#0(D)[2023-06-05 00:35:59,695]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 9044 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-05 00:35:59,695]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 9044 calling OnPipeDisconnect.
+#0(I)[2023-06-05 00:35:59,695]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-05 00:35:59,695]{2}<MessageBus_4440_0x1CEA5D564C0> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-05 00:35:59,696]{2}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Disconnect done for handle 9044.
+#0(D)[2023-06-05 00:35:59,709]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 9044 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-05 00:35:59,709]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-05 02:14:35,066]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Connect on handle 7796.
+#0(D)[2023-06-05 02:14:35,066]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-05 02:14:35,071]{2}<MessageBus_4440_0x1CEA5D564C0> PerformConnectCompletion on handle 7796 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-05 02:14:35,071]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-05 02:14:35,071]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:MdnsPlugin
+#0(I)[2023-06-05 02:14:35,071]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:NvStreamControl
+#0(I)[2023-06-05 02:14:35,071]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:IdentityPlugin
+#0(I)[2023-06-05 02:14:35,071]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SWC:ShieldWirelessController
+#0(I)[2023-06-05 02:14:35,071]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:MdnsPlugin joined the Broadcaster.
+#0(I)[2023-06-05 02:14:35,071]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:NvStreamControl joined the Broadcaster.
+#0(I)[2023-06-05 02:14:35,072]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:IdentityPlugin joined the Broadcaster.
+#0(I)[2023-06-05 02:14:35,072]{2}<MessageBus_4440_0x1CEA5D564C0> SWC:ShieldWirelessController joined the Broadcaster.
+#0(W)[2023-06-05 05:48:55,036]{2}<MessageBus_4440_0x1CEA5D564C0> PerformReadCompletion on handle 7796 read error: 109
+#0(D)[2023-06-05 05:48:55,037]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 7796 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-05 05:48:55,037]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 7796 calling OnPipeDisconnect.
+#0(I)[2023-06-05 05:48:55,037]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-05 05:48:55,037]{2}<MessageBus_4440_0x1CEA5D564C0> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-05 05:48:55,037]{2}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Disconnect done for handle 7796.
+#0(D)[2023-06-05 05:48:55,050]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 7796 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-05 05:48:55,050]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-05 11:55:02,719]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Connect on handle 9072.
+#0(D)[2023-06-05 11:55:02,719]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-05 11:55:02,720]{2}<MessageBus_4440_0x1CEA5D564C0> PerformConnectCompletion on handle 9072 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-05 11:55:02,720]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-05 11:55:02,720]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:MdnsPlugin
+#0(I)[2023-06-05 11:55:02,720]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:NvStreamControl
+#0(I)[2023-06-05 11:55:02,720]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:IdentityPlugin
+#0(I)[2023-06-05 11:55:02,720]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SWC:ShieldWirelessController
+#0(I)[2023-06-05 11:55:02,722]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:MdnsPlugin joined the Broadcaster.
+#0(I)[2023-06-05 11:55:02,723]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:NvStreamControl joined the Broadcaster.
+#0(I)[2023-06-05 11:55:02,723]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:IdentityPlugin joined the Broadcaster.
+#0(I)[2023-06-05 11:55:02,723]{2}<MessageBus_4440_0x1CEA5D564C0> SWC:ShieldWirelessController joined the Broadcaster.
+#0(W)[2023-06-05 23:47:36,901]{2}<MessageBus_4440_0x1CEA5D564C0> PerformReadCompletion on handle 9072 read error: 109
+#0(D)[2023-06-05 23:47:36,901]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 9072 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-05 23:47:36,901]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 9072 calling OnPipeDisconnect.
+#0(I)[2023-06-05 23:47:36,901]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-05 23:47:36,901]{2}<MessageBus_4440_0x1CEA5D564C0> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-05 23:47:36,901]{2}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Disconnect done for handle 9072.
+#0(D)[2023-06-05 23:47:36,916]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 9072 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-05 23:47:36,916]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-06 01:14:16,866]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Connect on handle 10320.
+#0(D)[2023-06-06 01:14:16,866]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-06 01:14:16,866]{2}<MessageBus_4440_0x1CEA5D564C0> PerformConnectCompletion on handle 10320 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-06 01:14:16,866]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-06 01:14:16,866]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:MdnsPlugin
+#0(I)[2023-06-06 01:14:16,866]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:NvStreamControl
+#0(I)[2023-06-06 01:14:16,866]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:IdentityPlugin
+#0(I)[2023-06-06 01:14:16,866]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SWC:ShieldWirelessController
+#0(I)[2023-06-06 01:14:16,866]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:MdnsPlugin joined the Broadcaster.
+#0(I)[2023-06-06 01:14:16,866]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:NvStreamControl joined the Broadcaster.
+#0(I)[2023-06-06 01:14:16,866]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:IdentityPlugin joined the Broadcaster.
+#0(I)[2023-06-06 01:14:16,866]{2}<MessageBus_4440_0x1CEA5D564C0> SWC:ShieldWirelessController joined the Broadcaster.
+#0(W)[2023-06-06 07:19:30,209]{2}<MessageBus_4440_0x1CEA5D564C0> PerformReadCompletion on handle 10320 read error: 109
+#0(D)[2023-06-06 07:19:30,209]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 10320 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-06 07:19:30,209]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 10320 calling OnPipeDisconnect.
+#0(I)[2023-06-06 07:19:30,209]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-06 07:19:30,209]{2}<MessageBus_4440_0x1CEA5D564C0> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-06 07:19:30,210]{2}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Disconnect done for handle 10320.
+#0(D)[2023-06-06 07:19:30,223]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 10320 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-06 07:19:30,223]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-06 12:52:12,785]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Connect on handle 8180.
+#0(D)[2023-06-06 12:52:12,785]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-06 12:52:12,787]{2}<MessageBus_4440_0x1CEA5D564C0> PerformConnectCompletion on handle 8180 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-06 12:52:12,787]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-06 12:52:12,788]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:MdnsPlugin
+#0(I)[2023-06-06 12:52:12,788]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:NvStreamControl
+#0(I)[2023-06-06 12:52:12,788]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:IdentityPlugin
+#0(I)[2023-06-06 12:52:12,788]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SWC:ShieldWirelessController
+#0(I)[2023-06-06 12:52:12,788]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:MdnsPlugin joined the Broadcaster.
+#0(I)[2023-06-06 12:52:12,788]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:NvStreamControl joined the Broadcaster.
+#0(I)[2023-06-06 12:52:12,788]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:IdentityPlugin joined the Broadcaster.
+#0(I)[2023-06-06 12:52:12,788]{2}<MessageBus_4440_0x1CEA5D564C0> SWC:ShieldWirelessController joined the Broadcaster.
+#0(W)[2023-06-07 07:33:01,556]{2}<MessageBus_4440_0x1CEA5D564C0> PerformReadCompletion on handle 8180 read error: 109
+#0(D)[2023-06-07 07:33:01,556]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 8180 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-07 07:33:01,556]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 8180 calling OnPipeDisconnect.
+#0(I)[2023-06-07 07:33:01,556]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-07 07:33:01,556]{2}<MessageBus_4440_0x1CEA5D564C0> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-07 07:33:01,557]{2}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Disconnect done for handle 8180.
+#0(D)[2023-06-07 07:33:01,569]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 8180 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-07 07:33:01,569]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-07 13:42:59,921]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Connect on handle 12420.
+#0(D)[2023-06-07 13:42:59,922]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-07 13:42:59,922]{2}<MessageBus_4440_0x1CEA5D564C0> PerformConnectCompletion on handle 12420 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-07 13:42:59,922]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-07 13:42:59,922]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:MdnsPlugin
+#0(I)[2023-06-07 13:42:59,922]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:NvStreamControl
+#0(I)[2023-06-07 13:42:59,922]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:IdentityPlugin
+#0(I)[2023-06-07 13:42:59,922]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SWC:ShieldWirelessController
+#0(I)[2023-06-07 13:42:59,922]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:MdnsPlugin joined the Broadcaster.
+#0(I)[2023-06-07 13:42:59,922]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:NvStreamControl joined the Broadcaster.
+#0(I)[2023-06-07 13:42:59,922]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:IdentityPlugin joined the Broadcaster.
+#0(I)[2023-06-07 13:42:59,922]{2}<MessageBus_4440_0x1CEA5D564C0> SWC:ShieldWirelessController joined the Broadcaster.
+#0(W)[2023-06-08 03:23:07,229]{2}<MessageBus_4440_0x1CEA5D564C0> PerformReadCompletion on handle 12420 read error: 109
+#0(D)[2023-06-08 03:23:07,230]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 12420 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-08 03:23:07,230]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 12420 calling OnPipeDisconnect.
+#0(I)[2023-06-08 03:23:07,230]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-08 03:23:07,230]{2}<MessageBus_4440_0x1CEA5D564C0> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-08 03:23:07,230]{2}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Disconnect done for handle 12420.
+#0(D)[2023-06-08 03:23:07,242]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 12420 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-08 03:23:07,242]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-08 12:41:45,704]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Connect on handle 15448.
+#0(D)[2023-06-08 12:41:45,704]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-08 12:41:45,718]{2}<MessageBus_4440_0x1CEA5D564C0> PerformConnectCompletion on handle 15448 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-08 12:41:45,718]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-08 12:41:45,718]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:MdnsPlugin
+#0(I)[2023-06-08 12:41:45,718]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:NvStreamControl
+#0(I)[2023-06-08 12:41:45,718]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:IdentityPlugin
+#0(I)[2023-06-08 12:41:45,718]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SWC:ShieldWirelessController
+#0(I)[2023-06-08 12:41:45,719]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:MdnsPlugin joined the Broadcaster.
+#0(I)[2023-06-08 12:41:45,719]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:NvStreamControl joined the Broadcaster.
+#0(I)[2023-06-08 12:41:45,719]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:IdentityPlugin joined the Broadcaster.
+#0(I)[2023-06-08 12:41:45,719]{2}<MessageBus_4440_0x1CEA5D564C0> SWC:ShieldWirelessController joined the Broadcaster.
+#0(W)[2023-06-08 21:57:24,947]{2}<MessageBus_4440_0x1CEA5D564C0> PerformReadCompletion on handle 15448 read error: 109
+#0(D)[2023-06-08 21:57:24,948]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 15448 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-08 21:57:24,948]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 15448 calling OnPipeDisconnect.
+#0(I)[2023-06-08 21:57:24,948]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-08 21:57:24,948]{2}<MessageBus_4440_0x1CEA5D564C0> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-08 21:57:24,949]{2}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Disconnect done for handle 15448.
+#0(D)[2023-06-08 21:57:24,964]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 15448 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-08 21:57:24,964]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-09 00:49:51,818]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Connect on handle 16708.
+#0(D)[2023-06-09 00:49:51,818]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-09 00:49:51,838]{2}<MessageBus_4440_0x1CEA5D564C0> PerformConnectCompletion on handle 16708 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-09 00:49:51,838]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-09 00:49:51,838]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:MdnsPlugin
+#0(I)[2023-06-09 00:49:51,838]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:NvStreamControl
+#0(I)[2023-06-09 00:49:51,838]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:IdentityPlugin
+#0(I)[2023-06-09 00:49:51,838]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SWC:ShieldWirelessController
+#0(I)[2023-06-09 00:49:51,839]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:MdnsPlugin joined the Broadcaster.
+#0(I)[2023-06-09 00:49:51,839]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:NvStreamControl joined the Broadcaster.
+#0(I)[2023-06-09 00:49:51,839]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:IdentityPlugin joined the Broadcaster.
+#0(I)[2023-06-09 00:49:51,839]{2}<MessageBus_4440_0x1CEA5D564C0> SWC:ShieldWirelessController joined the Broadcaster.
+#0(W)[2023-06-09 23:04:09,524]{2}<MessageBus_4440_0x1CEA5D564C0> PerformReadCompletion on handle 16708 read error: 109
+#0(D)[2023-06-09 23:04:09,524]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 16708 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-09 23:04:09,524]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 16708 calling OnPipeDisconnect.
+#0(I)[2023-06-09 23:04:09,524]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-09 23:04:09,524]{2}<MessageBus_4440_0x1CEA5D564C0> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-09 23:04:09,525]{2}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Disconnect done for handle 16708.
+#0(D)[2023-06-09 23:04:09,534]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 16708 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-09 23:04:09,534]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-10 00:27:15,882]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Connect on handle 16568.
+#0(D)[2023-06-10 00:27:15,882]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-10 00:27:15,882]{2}<MessageBus_4440_0x1CEA5D564C0> PerformConnectCompletion on handle 16568 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-10 00:27:15,882]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-10 00:27:15,882]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:MdnsPlugin
+#0(I)[2023-06-10 00:27:15,882]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:NvStreamControl
+#0(I)[2023-06-10 00:27:15,882]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:IdentityPlugin
+#0(I)[2023-06-10 00:27:15,882]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SWC:ShieldWirelessController
+#0(I)[2023-06-10 00:27:15,882]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:MdnsPlugin joined the Broadcaster.
+#0(I)[2023-06-10 00:27:15,884]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:NvStreamControl joined the Broadcaster.
+#0(I)[2023-06-10 00:27:15,884]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:IdentityPlugin joined the Broadcaster.
+#0(I)[2023-06-10 00:27:15,884]{2}<MessageBus_4440_0x1CEA5D564C0> SWC:ShieldWirelessController joined the Broadcaster.
+#0(W)[2023-06-11 04:00:13,165]{2}<MessageBus_4440_0x1CEA5D564C0> PerformReadCompletion on handle 16568 read error: 109
+#0(D)[2023-06-11 04:00:13,166]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 16568 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-11 04:00:13,166]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 16568 calling OnPipeDisconnect.
+#0(I)[2023-06-11 04:00:13,166]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-11 04:00:13,166]{2}<MessageBus_4440_0x1CEA5D564C0> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-11 04:00:13,166]{2}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Disconnect done for handle 16568.
+#0(D)[2023-06-11 04:00:13,177]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 16568 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-11 04:00:13,177]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-11 05:01:03,997]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Connect on handle 14360.
+#0(D)[2023-06-11 05:01:03,997]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-11 05:01:04,018]{2}<MessageBus_4440_0x1CEA5D564C0> PerformConnectCompletion on handle 14360 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-11 05:01:04,018]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-11 05:01:04,018]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:MdnsPlugin
+#0(I)[2023-06-11 05:01:04,018]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:NvStreamControl
+#0(I)[2023-06-11 05:01:04,018]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:IdentityPlugin
+#0(I)[2023-06-11 05:01:04,019]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SWC:ShieldWirelessController
+#0(I)[2023-06-11 05:01:04,020]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:MdnsPlugin joined the Broadcaster.
+#0(I)[2023-06-11 05:01:04,020]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:NvStreamControl joined the Broadcaster.
+#0(I)[2023-06-11 05:01:04,021]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:IdentityPlugin joined the Broadcaster.
+#0(I)[2023-06-11 05:01:04,021]{2}<MessageBus_4440_0x1CEA5D564C0> SWC:ShieldWirelessController joined the Broadcaster.
+#0(W)[2023-06-11 08:03:11,634]{2}<MessageBus_4440_0x1CEA5D564C0> PerformReadCompletion on handle 14360 read error: 109
+#0(D)[2023-06-11 08:03:11,634]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 14360 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-11 08:03:11,634]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 14360 calling OnPipeDisconnect.
+#0(I)[2023-06-11 08:03:11,634]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-11 08:03:11,634]{2}<MessageBus_4440_0x1CEA5D564C0> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-11 08:03:11,635]{2}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Disconnect done for handle 14360.
+#0(D)[2023-06-11 08:03:11,644]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 14360 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-11 08:03:11,644]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-11 16:52:03,790]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Connect on handle 20416.
+#0(D)[2023-06-11 16:52:03,790]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-11 16:52:03,790]{2}<MessageBus_4440_0x1CEA5D564C0> PerformConnectCompletion on handle 20416 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-11 16:52:03,790]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-11 16:52:03,790]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:MdnsPlugin
+#0(I)[2023-06-11 16:52:03,790]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:NvStreamControl
+#0(I)[2023-06-11 16:52:03,790]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:IdentityPlugin
+#0(I)[2023-06-11 16:52:03,790]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SWC:ShieldWirelessController
+#0(I)[2023-06-11 16:52:03,798]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:MdnsPlugin joined the Broadcaster.
+#0(I)[2023-06-11 16:52:03,798]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:NvStreamControl joined the Broadcaster.
+#0(I)[2023-06-11 16:52:03,798]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:IdentityPlugin joined the Broadcaster.
+#0(I)[2023-06-11 16:52:03,799]{2}<MessageBus_4440_0x1CEA5D564C0> SWC:ShieldWirelessController joined the Broadcaster.
+#0(W)[2023-06-12 02:42:19,078]{2}<MessageBus_4440_0x1CEA5D564C0> PerformReadCompletion on handle 20416 read error: 109
+#0(D)[2023-06-12 02:42:19,078]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 20416 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-12 02:42:19,078]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 20416 calling OnPipeDisconnect.
+#0(I)[2023-06-12 02:42:19,078]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-12 02:42:19,078]{2}<MessageBus_4440_0x1CEA5D564C0> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-12 02:42:19,079]{2}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Disconnect done for handle 20416.
+#0(D)[2023-06-12 02:42:19,088]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 20416 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-12 02:42:19,088]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-12 02:53:17,821]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Connect on handle 20808.
+#0(D)[2023-06-12 02:53:17,821]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-12 02:53:17,821]{2}<MessageBus_4440_0x1CEA5D564C0> PerformConnectCompletion on handle 20808 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-12 02:53:17,821]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-12 02:53:17,821]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:MdnsPlugin
+#0(I)[2023-06-12 02:53:17,821]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:NvStreamControl
+#0(I)[2023-06-12 02:53:17,821]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:IdentityPlugin
+#0(I)[2023-06-12 02:53:17,821]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SWC:ShieldWirelessController
+#0(I)[2023-06-12 02:53:17,821]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:MdnsPlugin joined the Broadcaster.
+#0(I)[2023-06-12 02:53:17,821]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:NvStreamControl joined the Broadcaster.
+#0(I)[2023-06-12 02:53:17,822]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:IdentityPlugin joined the Broadcaster.
+#0(I)[2023-06-12 02:53:17,822]{2}<MessageBus_4440_0x1CEA5D564C0> SWC:ShieldWirelessController joined the Broadcaster.
+#0(W)[2023-06-12 08:21:17,935]{2}<MessageBus_4440_0x1CEA5D564C0> PerformReadCompletion on handle 20808 read error: 109
+#0(D)[2023-06-12 08:21:17,935]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 20808 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-12 08:21:17,935]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 20808 calling OnPipeDisconnect.
+#0(I)[2023-06-12 08:21:17,935]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-12 08:21:17,935]{2}<MessageBus_4440_0x1CEA5D564C0> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-12 08:21:17,937]{2}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Disconnect done for handle 20808.
+#0(D)[2023-06-12 08:21:17,950]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 20808 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-12 08:21:17,950]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-12 16:56:01,678]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Connect on handle 20932.
+#0(D)[2023-06-12 16:56:01,678]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-12 16:56:01,700]{2}<MessageBus_4440_0x1CEA5D564C0> PerformConnectCompletion on handle 20932 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-12 16:56:01,700]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-12 16:56:01,700]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:MdnsPlugin
+#0(I)[2023-06-12 16:56:01,700]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:NvStreamControl
+#0(I)[2023-06-12 16:56:01,700]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:IdentityPlugin
+#0(I)[2023-06-12 16:56:01,700]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SWC:ShieldWirelessController
+#0(I)[2023-06-12 16:56:01,700]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:MdnsPlugin joined the Broadcaster.
+#0(I)[2023-06-12 16:56:01,701]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:NvStreamControl joined the Broadcaster.
+#0(I)[2023-06-12 16:56:01,701]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:IdentityPlugin joined the Broadcaster.
+#0(I)[2023-06-12 16:56:01,701]{2}<MessageBus_4440_0x1CEA5D564C0> SWC:ShieldWirelessController joined the Broadcaster.
+#0(W)[2023-06-13 04:28:14,313]{2}<MessageBus_4440_0x1CEA5D564C0> PerformReadCompletion on handle 20932 read error: 109
+#0(D)[2023-06-13 04:28:14,314]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 20932 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-13 04:28:14,314]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 20932 calling OnPipeDisconnect.
+#0(I)[2023-06-13 04:28:14,314]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-13 04:28:14,314]{2}<MessageBus_4440_0x1CEA5D564C0> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-13 04:28:14,315]{2}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Disconnect done for handle 20932.
+#0(D)[2023-06-13 04:28:14,322]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 20932 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-13 04:28:14,322]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-13 04:56:14,802]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Connect on handle 20020.
+#0(D)[2023-06-13 04:56:14,802]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-13 04:56:14,806]{2}<MessageBus_4440_0x1CEA5D564C0> PerformConnectCompletion on handle 20020 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-13 04:56:14,807]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-13 04:56:14,807]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:MdnsPlugin
+#0(I)[2023-06-13 04:56:14,807]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:NvStreamControl
+#0(I)[2023-06-13 04:56:14,807]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:IdentityPlugin
+#0(I)[2023-06-13 04:56:14,807]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SWC:ShieldWirelessController
+#0(I)[2023-06-13 04:56:14,808]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:MdnsPlugin joined the Broadcaster.
+#0(I)[2023-06-13 04:56:14,808]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:NvStreamControl joined the Broadcaster.
+#0(I)[2023-06-13 04:56:14,808]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:IdentityPlugin joined the Broadcaster.
+#0(I)[2023-06-13 04:56:14,808]{2}<MessageBus_4440_0x1CEA5D564C0> SWC:ShieldWirelessController joined the Broadcaster.
+#0(W)[2023-06-13 06:38:26,400]{2}<MessageBus_4440_0x1CEA5D564C0> PerformReadCompletion on handle 20020 read error: 109
+#0(D)[2023-06-13 06:38:26,400]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 20020 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-13 06:38:26,400]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 20020 calling OnPipeDisconnect.
+#0(I)[2023-06-13 06:38:26,400]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-13 06:38:26,400]{2}<MessageBus_4440_0x1CEA5D564C0> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-13 06:38:26,402]{2}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Disconnect done for handle 20020.
+#0(D)[2023-06-13 06:38:26,409]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 20020 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-13 06:38:26,409]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-13 07:18:21,762]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Connect on handle 21796.
+#0(D)[2023-06-13 07:18:21,762]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-13 07:18:21,771]{2}<MessageBus_4440_0x1CEA5D564C0> PerformConnectCompletion on handle 21796 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-13 07:18:21,771]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-13 07:18:21,771]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:MdnsPlugin
+#0(I)[2023-06-13 07:18:21,771]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:NvStreamControl
+#0(I)[2023-06-13 07:18:21,771]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:IdentityPlugin
+#0(I)[2023-06-13 07:18:21,771]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SWC:ShieldWirelessController
+#0(I)[2023-06-13 07:18:21,771]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:MdnsPlugin joined the Broadcaster.
+#0(I)[2023-06-13 07:18:21,771]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:NvStreamControl joined the Broadcaster.
+#0(I)[2023-06-13 07:18:21,772]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:IdentityPlugin joined the Broadcaster.
+#0(I)[2023-06-13 07:18:21,772]{2}<MessageBus_4440_0x1CEA5D564C0> SWC:ShieldWirelessController joined the Broadcaster.
+#0(W)[2023-06-13 11:00:13,117]{2}<MessageBus_4440_0x1CEA5D564C0> PerformReadCompletion on handle 21796 read error: 109
+#0(D)[2023-06-13 11:00:13,117]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 21796 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-13 11:00:13,117]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 21796 calling OnPipeDisconnect.
+#0(I)[2023-06-13 11:00:13,117]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-13 11:00:13,117]{2}<MessageBus_4440_0x1CEA5D564C0> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-13 11:00:13,119]{2}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Disconnect done for handle 21796.
+#0(D)[2023-06-13 11:00:13,129]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 21796 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-13 11:00:13,129]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-13 16:41:22,838]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Connect on handle 22104.
+#0(D)[2023-06-13 16:41:22,838]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-13 16:41:22,849]{2}<MessageBus_4440_0x1CEA5D564C0> PerformConnectCompletion on handle 22104 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-13 16:41:22,850]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-13 16:41:22,850]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:MdnsPlugin
+#0(I)[2023-06-13 16:41:22,850]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:NvStreamControl
+#0(I)[2023-06-13 16:41:22,850]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:IdentityPlugin
+#0(I)[2023-06-13 16:41:22,850]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SWC:ShieldWirelessController
+#0(I)[2023-06-13 16:41:22,850]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:MdnsPlugin joined the Broadcaster.
+#0(I)[2023-06-13 16:41:22,851]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:NvStreamControl joined the Broadcaster.
+#0(I)[2023-06-13 16:41:22,851]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:IdentityPlugin joined the Broadcaster.
+#0(I)[2023-06-13 16:41:22,851]{2}<MessageBus_4440_0x1CEA5D564C0> SWC:ShieldWirelessController joined the Broadcaster.
+#0(W)[2023-06-13 23:23:12,362]{2}<MessageBus_4440_0x1CEA5D564C0> PerformReadCompletion on handle 22104 read error: 109
+#0(D)[2023-06-13 23:23:12,362]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 22104 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-13 23:23:12,362]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 22104 calling OnPipeDisconnect.
+#0(I)[2023-06-13 23:23:12,362]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-13 23:23:12,362]{2}<MessageBus_4440_0x1CEA5D564C0> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-13 23:23:12,364]{2}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Disconnect done for handle 22104.
+#0(D)[2023-06-13 23:23:12,375]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 22104 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-13 23:23:12,375]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-14 01:03:39,681]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Connect on handle 21888.
+#0(D)[2023-06-14 01:03:39,681]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-14 01:03:39,684]{2}<MessageBus_4440_0x1CEA5D564C0> PerformConnectCompletion on handle 21888 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-14 01:03:39,684]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-14 01:03:39,684]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:MdnsPlugin
+#0(I)[2023-06-14 01:03:39,684]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:NvStreamControl
+#0(I)[2023-06-14 01:03:39,684]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:IdentityPlugin
+#0(I)[2023-06-14 01:03:39,684]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SWC:ShieldWirelessController
+#0(I)[2023-06-14 01:03:39,686]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:MdnsPlugin joined the Broadcaster.
+#0(I)[2023-06-14 01:03:39,686]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:NvStreamControl joined the Broadcaster.
+#0(I)[2023-06-14 01:03:39,686]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:IdentityPlugin joined the Broadcaster.
+#0(I)[2023-06-14 01:03:39,687]{2}<MessageBus_4440_0x1CEA5D564C0> SWC:ShieldWirelessController joined the Broadcaster.
+#0(W)[2023-06-14 04:38:50,052]{2}<MessageBus_4440_0x1CEA5D564C0> PerformReadCompletion on handle 21888 read error: 109
+#0(D)[2023-06-14 04:38:50,052]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 21888 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-14 04:38:50,052]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 21888 calling OnPipeDisconnect.
+#0(I)[2023-06-14 04:38:50,052]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-14 04:38:50,052]{2}<MessageBus_4440_0x1CEA5D564C0> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-14 04:38:50,053]{2}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Disconnect done for handle 21888.
+#0(D)[2023-06-14 04:38:50,059]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 21888 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-14 04:38:50,059]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-14 05:32:08,770]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Connect on handle 22824.
+#0(D)[2023-06-14 05:32:08,770]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-14 05:32:08,779]{2}<MessageBus_4440_0x1CEA5D564C0> PerformConnectCompletion on handle 22824 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-14 05:32:08,779]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-14 05:32:08,779]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:MdnsPlugin
+#0(I)[2023-06-14 05:32:08,779]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:NvStreamControl
+#0(I)[2023-06-14 05:32:08,779]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:IdentityPlugin
+#0(I)[2023-06-14 05:32:08,779]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SWC:ShieldWirelessController
+#0(I)[2023-06-14 05:32:08,780]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:MdnsPlugin joined the Broadcaster.
+#0(I)[2023-06-14 05:32:08,780]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:NvStreamControl joined the Broadcaster.
+#0(I)[2023-06-14 05:32:08,780]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:IdentityPlugin joined the Broadcaster.
+#0(I)[2023-06-14 05:32:08,780]{2}<MessageBus_4440_0x1CEA5D564C0> SWC:ShieldWirelessController joined the Broadcaster.
+#0(W)[2023-06-14 09:38:24,831]{2}<MessageBus_4440_0x1CEA5D564C0> PerformReadCompletion on handle 22824 read error: 109
+#0(D)[2023-06-14 09:38:24,831]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 22824 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-14 09:38:24,831]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 22824 calling OnPipeDisconnect.
+#0(I)[2023-06-14 09:38:24,831]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-14 09:38:24,831]{2}<MessageBus_4440_0x1CEA5D564C0> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-14 09:38:24,834]{2}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Disconnect done for handle 22824.
+#0(D)[2023-06-14 09:38:24,846]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 22824 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-14 09:38:24,846]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-14 16:05:42,746]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Connect on handle 23468.
+#0(D)[2023-06-14 16:05:42,746]{1}<MessageBus_4440_0x1CEA5D564C0> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-14 16:05:42,746]{2}<MessageBus_4440_0x1CEA5D564C0> PerformConnectCompletion on handle 23468 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-14 16:05:42,746]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe connected to Broadcast process 4440.
+#0(I)[2023-06-14 16:05:42,746]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:MdnsPlugin
+#0(I)[2023-06-14 16:05:42,746]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:NvStreamControl
+#0(I)[2023-06-14 16:05:42,746]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SSAS:IdentityPlugin
+#0(I)[2023-06-14 16:05:42,747]{2}<MessageBus_4440_0x1CEA5D564C0> rejoinObserverV1: SWC:ShieldWirelessController
+#0(I)[2023-06-14 16:05:42,772]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:MdnsPlugin joined the Broadcaster.
+#0(I)[2023-06-14 16:05:42,773]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:NvStreamControl joined the Broadcaster.
+#0(I)[2023-06-14 16:05:42,773]{2}<MessageBus_4440_0x1CEA5D564C0> SSAS:IdentityPlugin joined the Broadcaster.
+#0(I)[2023-06-14 16:05:42,773]{2}<MessageBus_4440_0x1CEA5D564C0> SWC:ShieldWirelessController joined the Broadcaster.
+#0(I)[2023-06-14 19:44:30,749]{0}<MessageBus_4440_0x1CEA5D564C0> Removed observer v1: SWC:ShieldWirelessController
+#0(I)[2023-06-14 19:44:30,764]{0}<MessageBus_4440_0x1CEA5D564C0> Removed observer v1: SSAS:IdentityPlugin
+#0(I)[2023-06-14 19:44:30,764]{0}<MessageBus_4440_0x1CEA5D564C0> Removed observer v1: SSAS:NvStreamControl
+#0(I)[2023-06-14 19:44:30,764]{0}<MessageBus_4440_0x1CEA5D564C0> Removed observer v1: SSAS:MdnsPlugin
+#0(W)[2023-06-14 19:44:30,764]{2}<MessageBus_4440_0x1CEA5D564C0> PerformReadCompletion on handle 23468 read error: 109
+#0(D)[2023-06-14 19:44:30,764]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 23468 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-14 19:44:30,764]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 23468 calling OnPipeDisconnect.
+#0(I)[2023-06-14 19:44:30,764]{2}<MessageBus_4440_0x1CEA5D564C0> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-14 19:44:30,764]{2}<MessageBus_4440_0x1CEA5D564C0> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-14 19:44:30,764]{0}<MessageBus_4440_0x1CEA5D564C0> ~MessageBusImpl enter.
+#0(D)[2023-06-14 19:44:30,764]{0}<MessageBus_4440_0x1CEA5D564C0> ~MessageBusImpl waiting for write queue to flush.
+#0(D)[2023-06-14 19:44:30,764]{0}<MessageBus_4440_0x1CEA5D564C0> ~MessageBusImpl writes flushed successfully.
+#0(D)[2023-06-14 19:44:30,764]{0}<MessageBus_4440_0x1CEA5D564C0> ~MessageBusImpl Requesting disconnect.
+#0(D)[2023-06-14 19:44:30,764]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion on handle 23468 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-14 19:44:30,764]{2}<MessageBus_4440_0x1CEA5D564C0> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(D)[2023-06-14 19:44:30,764]{0}<MessageBus_4440_0x1CEA5D564C0> PipeEndpoint::Disconnect done for handle 23468.
+#0(D)[2023-06-14 19:44:30,764]{0}<MessageBus_4440_0x1CEA5D564C0> ~MessageBusImpl waiting for disconnect notification.
+#0(D)[2023-06-14 19:44:30,764]{0}<MessageBus_4440_0x1CEA5D564C0> ~MessageBusImpl disconnect completed.
+#0(D)[2023-06-14 19:44:30,764]{0}<MessageBus_4440_0x1CEA5D564C0> PostQueuedCompletionStatus with NULL key for shutdown.
+#0(D)[2023-06-14 19:44:30,764]{2}<MessageBus_4440_0x1CEA5D564C0> IoCompletionDispatchTask completion for quit event received.
+#0(D)[2023-06-14 19:44:30,764]{0}<MessageBus_4440_0x1CEA5D564C0> TaskManager tasks have completed, closing IOCP.
+#0(D)[2023-06-14 19:44:30,764]{0}<MessageBus_4440_0x1CEA5D564C0> ~MessageBusImpl exit.

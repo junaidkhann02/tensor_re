@@ -1,0 +1,186 @@
+#0(I)[2023-06-14 19:45:56,944]{0}<MessageBus_12156_0x5910888> Logger Initialized.
+#0(I)[2023-06-14 19:45:56,960]{0}<MessageBus_12156_0x5910888> V1 Observer attempting to join bus: Ansel:NvCameraControl
+#0(I)[2023-06-14 19:45:56,992]{3}<MessageBus_12156_0x5910888> PipeEndpoint::Connect on handle 2100.
+#0(D)[2023-06-14 19:45:56,992]{3}<MessageBus_12156_0x5910888> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-14 19:45:56,992]{4}<MessageBus_12156_0x5910888> PerformConnectCompletion on handle 2100 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-14 19:45:56,992]{4}<MessageBus_12156_0x5910888> Pipe connected to Broadcast process 4928.
+#0(I)[2023-06-14 19:45:56,992]{4}<MessageBus_12156_0x5910888> rejoinObserverV1: Ansel:NvCameraControl
+#0(I)[2023-06-14 19:45:56,992]{4}<MessageBus_12156_0x5910888> Ansel:NvCameraControl joined the Broadcaster.
+#0(I)[2023-06-14 19:45:58,084]{0}<MessageBus_12156_0x5910888> V1 Observer attempting to join bus: NvNode:SDKAPI
+#0(I)[2023-06-14 19:45:58,129]{4}<MessageBus_12156_0x5910888> NvNode:SDKAPI joined the Broadcaster.
+#0(W)[2023-06-15 10:54:07,065]{4}<MessageBus_12156_0x5910888> PipeEndpoint::PerformRead ReadFile header lastError: 109
+#0(D)[2023-06-15 10:54:07,079]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion on handle 2100 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-15 10:54:07,079]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion on handle 2100 calling OnPipeDisconnect.
+#0(I)[2023-06-15 10:54:07,079]{4}<MessageBus_12156_0x5910888> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-15 10:54:07,079]{4}<MessageBus_12156_0x5910888> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-15 10:54:07,079]{4}<MessageBus_12156_0x5910888> PipeEndpoint::Disconnect done for handle 2100.
+#0(D)[2023-06-15 10:54:07,156]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion on handle 2100 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-15 10:54:07,156]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-15 16:13:08,135]{3}<MessageBus_12156_0x5910888> PipeEndpoint::Connect on handle 2272.
+#0(D)[2023-06-15 16:13:08,135]{3}<MessageBus_12156_0x5910888> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-15 16:13:08,208]{4}<MessageBus_12156_0x5910888> PerformConnectCompletion on handle 2272 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-15 16:13:08,208]{4}<MessageBus_12156_0x5910888> Pipe connected to Broadcast process 4928.
+#0(I)[2023-06-15 16:13:08,296]{4}<MessageBus_12156_0x5910888> rejoinObserverV1: Ansel:NvCameraControl
+#0(I)[2023-06-15 16:13:08,310]{4}<MessageBus_12156_0x5910888> rejoinObserverV1: NvNode:SDKAPI
+#0(I)[2023-06-15 16:13:08,326]{4}<MessageBus_12156_0x5910888> Ansel:NvCameraControl joined the Broadcaster.
+#0(I)[2023-06-15 16:13:08,327]{4}<MessageBus_12156_0x5910888> NvNode:SDKAPI joined the Broadcaster.
+#0(W)[2023-06-15 18:03:23,420]{4}<MessageBus_12156_0x5910888> PipeEndpoint::PerformRead ReadFile header lastError: 109
+#0(D)[2023-06-15 18:03:23,468]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion on handle 2272 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-15 18:03:23,468]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion on handle 2272 calling OnPipeDisconnect.
+#0(I)[2023-06-15 18:03:23,468]{4}<MessageBus_12156_0x5910888> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-15 18:03:23,468]{4}<MessageBus_12156_0x5910888> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-15 18:03:23,468]{4}<MessageBus_12156_0x5910888> PipeEndpoint::Disconnect done for handle 2272.
+#0(D)[2023-06-15 18:03:23,605]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion on handle 2272 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-15 18:03:23,605]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-15 23:11:16,931]{3}<MessageBus_12156_0x5910888> PipeEndpoint::Connect on handle 3004.
+#0(D)[2023-06-15 23:11:16,931]{3}<MessageBus_12156_0x5910888> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-15 23:11:16,934]{4}<MessageBus_12156_0x5910888> PerformConnectCompletion on handle 3004 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-15 23:11:16,935]{4}<MessageBus_12156_0x5910888> Pipe connected to Broadcast process 4928.
+#0(I)[2023-06-15 23:11:16,935]{4}<MessageBus_12156_0x5910888> rejoinObserverV1: Ansel:NvCameraControl
+#0(I)[2023-06-15 23:11:16,936]{4}<MessageBus_12156_0x5910888> rejoinObserverV1: NvNode:SDKAPI
+#0(I)[2023-06-15 23:11:16,947]{4}<MessageBus_12156_0x5910888> Ansel:NvCameraControl joined the Broadcaster.
+#0(I)[2023-06-15 23:11:16,948]{4}<MessageBus_12156_0x5910888> NvNode:SDKAPI joined the Broadcaster.
+#0(W)[2023-06-16 09:44:40,499]{4}<MessageBus_12156_0x5910888> PipeEndpoint::PerformRead ReadFile header lastError: 109
+#0(D)[2023-06-16 09:44:40,560]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion on handle 3004 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-16 09:44:40,560]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion on handle 3004 calling OnPipeDisconnect.
+#0(I)[2023-06-16 09:44:40,560]{4}<MessageBus_12156_0x5910888> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-16 09:44:40,560]{4}<MessageBus_12156_0x5910888> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-16 09:44:40,560]{4}<MessageBus_12156_0x5910888> PipeEndpoint::Disconnect done for handle 3004.
+#0(D)[2023-06-16 09:44:40,727]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion on handle 3004 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-16 09:44:40,727]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-16 14:27:16,042]{3}<MessageBus_12156_0x5910888> PipeEndpoint::Connect on handle 1360.
+#0(D)[2023-06-16 14:27:16,118]{3}<MessageBus_12156_0x5910888> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-16 14:27:16,119]{4}<MessageBus_12156_0x5910888> PerformConnectCompletion on handle 1360 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-16 14:27:16,119]{4}<MessageBus_12156_0x5910888> Pipe connected to Broadcast process 4928.
+#0(I)[2023-06-16 14:27:16,119]{4}<MessageBus_12156_0x5910888> rejoinObserverV1: Ansel:NvCameraControl
+#0(I)[2023-06-16 14:27:16,180]{4}<MessageBus_12156_0x5910888> rejoinObserverV1: NvNode:SDKAPI
+#0(I)[2023-06-16 14:27:16,272]{4}<MessageBus_12156_0x5910888> Ansel:NvCameraControl joined the Broadcaster.
+#0(I)[2023-06-16 14:27:16,274]{4}<MessageBus_12156_0x5910888> NvNode:SDKAPI joined the Broadcaster.
+#0(W)[2023-06-17 05:35:24,129]{4}<MessageBus_12156_0x5910888> PipeEndpoint::PerformRead ReadFile header lastError: 109
+#0(D)[2023-06-17 05:35:24,205]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion on handle 1360 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-17 05:35:24,205]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion on handle 1360 calling OnPipeDisconnect.
+#0(I)[2023-06-17 05:35:24,205]{4}<MessageBus_12156_0x5910888> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-17 05:35:24,223]{4}<MessageBus_12156_0x5910888> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-17 05:35:24,224]{4}<MessageBus_12156_0x5910888> PipeEndpoint::Disconnect done for handle 1360.
+#0(D)[2023-06-17 05:35:24,528]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion on handle 1360 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-17 05:35:24,528]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-17 16:00:20,074]{3}<MessageBus_12156_0x5910888> PipeEndpoint::Connect on handle 1136.
+#0(D)[2023-06-17 16:00:20,074]{3}<MessageBus_12156_0x5910888> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-17 16:00:20,236]{4}<MessageBus_12156_0x5910888> PerformConnectCompletion on handle 1136 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-17 16:00:20,236]{4}<MessageBus_12156_0x5910888> Pipe connected to Broadcast process 4928.
+#0(I)[2023-06-17 16:00:20,268]{4}<MessageBus_12156_0x5910888> rejoinObserverV1: Ansel:NvCameraControl
+#0(I)[2023-06-17 16:00:20,292]{4}<MessageBus_12156_0x5910888> rejoinObserverV1: NvNode:SDKAPI
+#0(I)[2023-06-17 16:00:20,300]{4}<MessageBus_12156_0x5910888> Ansel:NvCameraControl joined the Broadcaster.
+#0(I)[2023-06-17 16:00:20,300]{4}<MessageBus_12156_0x5910888> NvNode:SDKAPI joined the Broadcaster.
+#0(W)[2023-06-18 13:04:17,652]{4}<MessageBus_12156_0x5910888> PerformReadCompletion on handle 1136 read error: 109
+#0(D)[2023-06-18 13:04:17,761]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion on handle 1136 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-18 13:04:17,761]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion on handle 1136 calling OnPipeDisconnect.
+#0(I)[2023-06-18 13:04:17,761]{4}<MessageBus_12156_0x5910888> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-18 13:04:17,762]{4}<MessageBus_12156_0x5910888> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-18 13:04:17,762]{4}<MessageBus_12156_0x5910888> PipeEndpoint::Disconnect done for handle 1136.
+#0(D)[2023-06-18 13:04:18,303]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion on handle 1136 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-18 13:04:18,303]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-18 17:07:00,224]{3}<MessageBus_12156_0x5910888> PipeEndpoint::Connect on handle 1204.
+#0(D)[2023-06-18 17:07:00,224]{3}<MessageBus_12156_0x5910888> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-18 17:07:00,224]{4}<MessageBus_12156_0x5910888> PerformConnectCompletion on handle 1204 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-18 17:07:00,224]{4}<MessageBus_12156_0x5910888> Pipe connected to Broadcast process 4928.
+#0(I)[2023-06-18 17:07:00,224]{4}<MessageBus_12156_0x5910888> rejoinObserverV1: Ansel:NvCameraControl
+#0(I)[2023-06-18 17:07:00,224]{4}<MessageBus_12156_0x5910888> rejoinObserverV1: NvNode:SDKAPI
+#0(I)[2023-06-18 17:07:00,239]{4}<MessageBus_12156_0x5910888> Ansel:NvCameraControl joined the Broadcaster.
+#0(I)[2023-06-18 17:07:00,285]{4}<MessageBus_12156_0x5910888> NvNode:SDKAPI joined the Broadcaster.
+#0(W)[2023-06-19 12:52:18,802]{4}<MessageBus_12156_0x5910888> PerformReadCompletion on handle 1204 read error: 109
+#0(D)[2023-06-19 12:52:18,849]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion on handle 1204 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-19 12:52:18,849]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion on handle 1204 calling OnPipeDisconnect.
+#0(I)[2023-06-19 12:52:18,849]{4}<MessageBus_12156_0x5910888> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-19 12:52:18,849]{4}<MessageBus_12156_0x5910888> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-19 12:52:18,849]{4}<MessageBus_12156_0x5910888> PipeEndpoint::Disconnect done for handle 1204.
+#0(D)[2023-06-19 12:52:19,126]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion on handle 1204 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-19 12:52:19,126]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-19 21:18:42,846]{3}<MessageBus_12156_0x5910888> PipeEndpoint::Connect on handle 1144.
+#0(D)[2023-06-19 21:18:42,846]{3}<MessageBus_12156_0x5910888> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-19 21:18:43,044]{4}<MessageBus_12156_0x5910888> PerformConnectCompletion on handle 1144 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-19 21:18:43,044]{4}<MessageBus_12156_0x5910888> Pipe connected to Broadcast process 4928.
+#0(I)[2023-06-19 21:18:43,300]{4}<MessageBus_12156_0x5910888> rejoinObserverV1: Ansel:NvCameraControl
+#0(I)[2023-06-19 21:18:43,445]{4}<MessageBus_12156_0x5910888> rejoinObserverV1: NvNode:SDKAPI
+#0(I)[2023-06-19 21:18:43,447]{4}<MessageBus_12156_0x5910888> Ansel:NvCameraControl joined the Broadcaster.
+#0(I)[2023-06-19 21:18:43,520]{4}<MessageBus_12156_0x5910888> NvNode:SDKAPI joined the Broadcaster.
+#0(W)[2023-06-20 09:12:25,610]{4}<MessageBus_12156_0x5910888> PerformReadCompletion on handle 1144 read error: 109
+#0(D)[2023-06-20 09:12:25,781]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion on handle 1144 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-20 09:12:25,781]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion on handle 1144 calling OnPipeDisconnect.
+#0(I)[2023-06-20 09:12:25,781]{4}<MessageBus_12156_0x5910888> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-20 09:12:25,796]{4}<MessageBus_12156_0x5910888> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-20 09:12:25,811]{4}<MessageBus_12156_0x5910888> PipeEndpoint::Disconnect done for handle 1144.
+#0(D)[2023-06-20 09:12:26,155]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion on handle 1144 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-20 09:12:26,155]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-20 15:42:29,215]{3}<MessageBus_12156_0x5910888> PipeEndpoint::Connect on handle 1296.
+#0(D)[2023-06-20 15:42:29,215]{3}<MessageBus_12156_0x5910888> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-20 15:42:29,301]{4}<MessageBus_12156_0x5910888> PerformConnectCompletion on handle 1296 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-20 15:42:29,301]{4}<MessageBus_12156_0x5910888> Pipe connected to Broadcast process 4928.
+#0(I)[2023-06-20 15:42:29,372]{4}<MessageBus_12156_0x5910888> rejoinObserverV1: Ansel:NvCameraControl
+#0(I)[2023-06-20 15:42:29,432]{4}<MessageBus_12156_0x5910888> rejoinObserverV1: NvNode:SDKAPI
+#0(I)[2023-06-20 15:42:29,464]{4}<MessageBus_12156_0x5910888> Ansel:NvCameraControl joined the Broadcaster.
+#0(I)[2023-06-20 15:42:29,495]{4}<MessageBus_12156_0x5910888> NvNode:SDKAPI joined the Broadcaster.
+#0(W)[2023-06-20 18:51:44,264]{4}<MessageBus_12156_0x5910888> PipeEndpoint::PerformRead ReadFile header lastError: 109
+#0(D)[2023-06-20 18:51:44,296]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion on handle 1296 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-20 18:51:44,296]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion on handle 1296 calling OnPipeDisconnect.
+#0(I)[2023-06-20 18:51:44,296]{4}<MessageBus_12156_0x5910888> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-20 18:51:44,296]{4}<MessageBus_12156_0x5910888> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-20 18:51:44,296]{4}<MessageBus_12156_0x5910888> PipeEndpoint::Disconnect done for handle 1296.
+#0(D)[2023-06-20 18:51:44,482]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion on handle 1296 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-20 18:51:44,482]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-20 22:16:16,956]{3}<MessageBus_12156_0x5910888> PipeEndpoint::Connect on handle 944.
+#0(D)[2023-06-20 22:16:16,956]{3}<MessageBus_12156_0x5910888> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-20 22:16:16,956]{4}<MessageBus_12156_0x5910888> PerformConnectCompletion on handle 944 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-20 22:16:16,956]{4}<MessageBus_12156_0x5910888> Pipe connected to Broadcast process 4928.
+#0(I)[2023-06-20 22:16:16,956]{4}<MessageBus_12156_0x5910888> rejoinObserverV1: Ansel:NvCameraControl
+#0(I)[2023-06-20 22:16:16,956]{4}<MessageBus_12156_0x5910888> rejoinObserverV1: NvNode:SDKAPI
+#0(I)[2023-06-20 22:16:17,015]{4}<MessageBus_12156_0x5910888> Ansel:NvCameraControl joined the Broadcaster.
+#0(I)[2023-06-20 22:16:17,017]{4}<MessageBus_12156_0x5910888> NvNode:SDKAPI joined the Broadcaster.
+#0(W)[2023-06-21 14:42:51,302]{4}<MessageBus_12156_0x5910888> PipeEndpoint::PerformRead ReadFile header lastError: 109
+#0(D)[2023-06-21 14:42:51,348]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion on handle 944 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-21 14:42:51,348]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion on handle 944 calling OnPipeDisconnect.
+#0(I)[2023-06-21 14:42:51,348]{4}<MessageBus_12156_0x5910888> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-21 14:42:51,348]{4}<MessageBus_12156_0x5910888> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-21 14:42:51,348]{4}<MessageBus_12156_0x5910888> PipeEndpoint::Disconnect done for handle 944.
+#0(D)[2023-06-21 14:42:51,486]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion on handle 944 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-21 14:42:51,486]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-21 21:40:23,853]{3}<MessageBus_12156_0x5910888> PipeEndpoint::Connect on handle 3284.
+#0(D)[2023-06-21 21:40:23,853]{3}<MessageBus_12156_0x5910888> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-21 21:40:23,955]{4}<MessageBus_12156_0x5910888> PerformConnectCompletion on handle 3284 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-21 21:40:23,956]{4}<MessageBus_12156_0x5910888> Pipe connected to Broadcast process 4928.
+#0(I)[2023-06-21 21:40:24,088]{4}<MessageBus_12156_0x5910888> rejoinObserverV1: Ansel:NvCameraControl
+#0(I)[2023-06-21 21:40:24,113]{4}<MessageBus_12156_0x5910888> rejoinObserverV1: NvNode:SDKAPI
+#0(I)[2023-06-21 21:40:24,135]{4}<MessageBus_12156_0x5910888> Ansel:NvCameraControl joined the Broadcaster.
+#0(I)[2023-06-21 21:40:24,136]{4}<MessageBus_12156_0x5910888> NvNode:SDKAPI joined the Broadcaster.
+#0(W)[2023-06-22 15:54:56,198]{4}<MessageBus_12156_0x5910888> PerformReadCompletion on handle 3284 read error: 109
+#0(D)[2023-06-22 15:54:56,261]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion on handle 3284 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-22 15:54:56,261]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion on handle 3284 calling OnPipeDisconnect.
+#0(I)[2023-06-22 15:54:56,261]{4}<MessageBus_12156_0x5910888> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-22 15:54:56,262]{4}<MessageBus_12156_0x5910888> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-22 15:54:56,262]{4}<MessageBus_12156_0x5910888> PipeEndpoint::Disconnect done for handle 3284.
+#0(D)[2023-06-22 15:54:56,504]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion on handle 3284 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-22 15:54:56,504]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-23 00:14:02,785]{3}<MessageBus_12156_0x5910888> PipeEndpoint::Connect on handle 3112.
+#0(D)[2023-06-23 00:14:02,785]{3}<MessageBus_12156_0x5910888> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-23 00:14:02,918]{4}<MessageBus_12156_0x5910888> PerformConnectCompletion on handle 3112 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-23 00:14:02,918]{4}<MessageBus_12156_0x5910888> Pipe connected to Broadcast process 4928.
+#0(I)[2023-06-23 00:14:03,138]{4}<MessageBus_12156_0x5910888> rejoinObserverV1: Ansel:NvCameraControl
+#0(I)[2023-06-23 00:14:03,191]{4}<MessageBus_12156_0x5910888> rejoinObserverV1: NvNode:SDKAPI
+#0(I)[2023-06-23 00:14:03,240]{4}<MessageBus_12156_0x5910888> Ansel:NvCameraControl joined the Broadcaster.
+#0(I)[2023-06-23 00:14:03,242]{4}<MessageBus_12156_0x5910888> NvNode:SDKAPI joined the Broadcaster.
+#0(W)[2023-06-23 14:59:26,898]{4}<MessageBus_12156_0x5910888> PerformReadCompletion on handle 3112 read error: 109
+#0(D)[2023-06-23 14:59:27,017]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion on handle 3112 for status 109 with pendingCount remaining: 0.
+#0(D)[2023-06-23 14:59:27,017]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion on handle 3112 calling OnPipeDisconnect.
+#0(I)[2023-06-23 14:59:27,017]{4}<MessageBus_12156_0x5910888> Pipe Disconnect (109) from Broadcaster.
+#0(I)[2023-06-23 14:59:27,017]{4}<MessageBus_12156_0x5910888> Notifying peers of disconnect from Broadcaster.
+#0(D)[2023-06-23 14:59:27,017]{4}<MessageBus_12156_0x5910888> PipeEndpoint::Disconnect done for handle 3112.
+#0(D)[2023-06-23 14:59:27,284]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion on handle 3112 for status 1223 with pendingCount remaining: 0.
+#0(D)[2023-06-23 14:59:27,284]{4}<MessageBus_12156_0x5910888> PerformDisconnectCompletion OnPipeDisconnect already called, skipping.
+#0(I)[2023-06-23 23:03:48,935]{3}<MessageBus_12156_0x5910888> PipeEndpoint::Connect on handle 3312.
+#0(D)[2023-06-23 23:03:48,935]{3}<MessageBus_12156_0x5910888> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-23 23:03:48,935]{4}<MessageBus_12156_0x5910888> PerformConnectCompletion on handle 3312 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-23 23:03:48,935]{4}<MessageBus_12156_0x5910888> Pipe connected to Broadcast process 4928.
+#0(I)[2023-06-23 23:03:48,985]{4}<MessageBus_12156_0x5910888> rejoinObserverV1: Ansel:NvCameraControl
+#0(I)[2023-06-23 23:03:48,993]{4}<MessageBus_12156_0x5910888> rejoinObserverV1: NvNode:SDKAPI
+#0(I)[2023-06-23 23:03:49,009]{4}<MessageBus_12156_0x5910888> Ansel:NvCameraControl joined the Broadcaster.
+#0(I)[2023-06-23 23:03:49,040]{4}<MessageBus_12156_0x5910888> NvNode:SDKAPI joined the Broadcaster.

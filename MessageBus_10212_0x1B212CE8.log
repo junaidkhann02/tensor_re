@@ -1,0 +1,8 @@
+#0(I)[2023-06-23 11:35:33,889]{0}<MessageBus_10212_0x1B212CE8> Logger Initialized.
+#0(I)[2023-06-23 11:35:33,890]{0}<MessageBus_10212_0x1B212CE8> V1 Observer attempting to join bus: Ansel:NvCamera
+#0(I)[2023-06-23 11:35:33,904]{1}<MessageBus_10212_0x1B212CE8> PipeEndpoint::Connect on handle 5980.
+#0(D)[2023-06-23 11:35:33,904]{1}<MessageBus_10212_0x1B212CE8> PipeEndpointConnectorTask pipe connected.
+#0(D)[2023-06-23 11:35:33,904]{2}<MessageBus_10212_0x1B212CE8> PerformConnectCompletion on handle 5980 calling OnPipeConnect, issuing PerformRead.
+#0(I)[2023-06-23 11:35:33,904]{2}<MessageBus_10212_0x1B212CE8> Pipe connected to Broadcast process 4928.
+#0(I)[2023-06-23 11:35:33,904]{2}<MessageBus_10212_0x1B212CE8> rejoinObserverV1: Ansel:NvCamera
+#0(I)[2023-06-23 11:35:33,906]{2}<MessageBus_10212_0x1B212CE8> Ansel:NvCamera joined the Broadcaster.
